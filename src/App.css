@@ -92,6 +92,7 @@
     top: 0;
     z-index: 9999;
     transition:  0.32s ease-in-out;
+    background-color: #121212;
   }
 
   /* If scroll
@@ -212,3 +213,203 @@
       border-color: transparent;
   }
   
+
+  /************ Banner Css ************/
+.home {
+    margin-top: 0;
+    padding: 200px 0 100px 0;
+    /*background-image: url('./assets/img/banner-bg.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+  }
+  .home .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .home h1 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .home h3 {
+    margin-bottom: 20px;
+  }
+
+  .home h1 span, .home h3 span{
+    color: #ff002e;
+  }
+  .home p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+  }
+  .home button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .home button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .home button:hover svg {
+    margin-left: 25px;
+  }
+  .home-img{
+    border-radius: 50%;
+  }
+  .home-img img{
+    border-radius: 50%;
+    box-shadow: 0 0 25px #ff002e;
+    transition: 0.4s ease-in-out;
+    width: 30vw; /*or 28rem*/
+    margin-top: 15px;
+  }
+  .home-img img:hover{
+    box-shadow: 0 0 25px #ff002e,
+                0 0 50px #ff002e,
+                0 0 100px #ff002e;
+  }
+
+  .social-icons-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .social-icons{
+    margin-left: 20px;
+  }
+  .social-icons a{
+    padding-right: 15px;
+  }
+  .social-icons a img{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 4px;
+    background: transparent;
+    border: 2px solid #ff002e;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    color: #ff002e;
+    transition: 0.3s ease-in-out;
+  }
+
+  .social-icons a img:hover{
+    transform: scale(1.2);
+    box-shadow: 0 0 25px #ff002e;
+  }
+/*
+.social-icons a {
+    width: 42px;
+    height: 42px;
+    background: rgba(217, 217, 217, 0.1);
+    display: inline-flex;
+    border-radius: 50%;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+  .social-icons a::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}
+
+  .social-icons a img{
+    color: #ff002e;
+  }
+
+
+  .social-icons a::before {
+    content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}
+.social-icons a:hover::before {
+    transform: scale(1);
+}
+.social-icons a img {
+	width: 40%;
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+}
+.social-icons a:hover img {
+	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+*/
+
+  .social-icons-text{
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.8px;
+  }
+
+  .banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 60px;
+    letter-spacing: 0.8px;
+    display: flex;
+    align-items: center;
+  }
+  .banner button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+  }
+  .banner button:hover svg {
+    margin-left: 25px;
+  }
+  /*
+  .home img {
+    animation: updown 3s linear infinite;
+  }
+  @keyframes updown {
+      0% {
+          transform: translateY(-20px);
+      }
+      50% {
+          transform: translateY(20px);
+      }
+      100% {
+          transform: translateY(-20px);
+      }
+  }
+  .txt-rotate > .wrap {
+    border-right: 0.08em solid #666;
+  }*/
