@@ -277,12 +277,12 @@
   .home-img{
     border-radius: 50%;
   }
-  .home-img img{
+  .home-img img{   
     border-radius: 50%;
     box-shadow: 0 0 25px #ff002e;
-    transition: 0.4s ease-in-out;
-    width: 30vw; /*or 28rem*/
-    margin-top: 15px;
+    transition: 0.4s ease-in-out;   
+    width: 30vw; /*or 28rem*/   
+    margin-top: 15px;   
   }
   .home-img img:hover{
     box-shadow: 0 0 25px #ff002e,
@@ -413,3 +413,40 @@
   .txt-rotate > .wrap {
     border-right: 0.08em solid #666;
   }*/
+
+
+/************ Timeline Css ************/
+
+.timeline{
+    padding-top: 50px;
+}
+
+.timeline h1{
+    text-align: center;
+    font-size: 45px;
+	font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.vertical-timeline::before {
+    background: #ff002e !important;
+  }
+
+.vertical-timeline-element-content.bounce-in {
+    background-color: #1d1d1d9e;
+}
+
+.vertical-timeline-element-title, .vertical-timeline-element-subtitle{
+  margin: 0 0 7px 0;
+}
+
+.vertical-timeline-element-icon{
+    box-shadow: 0 0 0 4px #ff002e,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)
+}
+
+.vertical-timeline-element-icon svg{
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
