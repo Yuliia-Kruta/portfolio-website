@@ -57,7 +57,7 @@ const Timeline = () => {
     return ( 
         <section className="timeline" id="timeline">
             <Container>
-            <h1>My Journey</h1>
+            <h1 className="section-title">My Journey</h1>
                 <VerticalTimeline>
                     {
                         timelineElements.map(element => {

@@ -43,6 +43,13 @@
     padding: 0;
     line-height: normal;
   }
+
+  h1.section-title{
+    text-align: center;
+    font-size: 45px;
+	  font-weight: 700;
+    padding-bottom: 50px;
+  }
   
   p, a, li, button, ul {
     margin: 0;
@@ -421,13 +428,6 @@
     padding-top: 50px;
 }
 
-.timeline h1{
-    text-align: center;
-    font-size: 45px;
-	font-weight: 700;
-    padding-bottom: 50px;
-}
-
 .vertical-timeline::before {
     background: #ff002e !important;
   }
@@ -450,3 +450,144 @@
     margin-left: -15px;
     margin-top: -15px;
 }
+
+
+/************ Skills Css ************/
+
+.skills-bento {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "java-core web-technologies programming-languages"
+    "spring-framework tools other-skills"
+    "databases orm certs";
+  gap: 16px;
+  padding: 20px;
+  /*box-shadow: 0 0 25px #ff002e;*/
+}
+
+.skill-category {
+  background: #1d1d1d9e;
+  padding: 20px;
+  border-radius: 12px;
+  /*box-shadow: 0 0 25px #ff002e;*/
+  /*box-shadow: 0 0 0 4px #ff002e,inset 0 2px 0 rgba(0,0,0,.08),0 3px 0 4px rgba(0,0,0,.05)*/
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.skill-category:hover {
+  box-shadow: 0 3px 0 #ddd;
+  transform: translateY(-5px);
+}
+
+.skill-category h4 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.skill-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skill-category ul li {
+  margin-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-title{
+  margin: 0 0 7px 0;
+}
+
+.java-core { 
+  grid-area: java-core;
+  background-color: #ff002e;
+  color: #ffffff;
+ }
+
+.spring-framework { 
+  grid-area: spring-framework; 
+}
+.web-technologies { 
+  grid-area: web-technologies; 
+}
+.programming-languages { 
+  grid-area: programming-languages; 
+  background-color: #fff;
+  color: #121212;
+}
+.orm { 
+  grid-area: orm; 
+  background-color: #ff002e;
+  color: #ffffff;
+}
+.databases { 
+  grid-area: databases; 
+  background-color: #fff;
+  color: #121212;
+}
+.other-skills { 
+  grid-area: other-skills; 
+  background-color: #ff002e;
+  color: #ffffff;
+}
+.tools { 
+  grid-area: tools; 
+  background-color: #fff;
+  color: #121212;
+}
+.certifications { 
+  grid-area: certs; 
+}
+
+/* Responsive Design for Medium Screens */
+@media (max-width: 1024px) {
+  .skills-bento {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+      "java-core web-technologies"
+      "spring-framework programming-languages"
+      "databases orm"
+      "other-skills tools"
+      "certs certs";
+  }
+  .other-skills{
+    background-color: #121212;
+    color: #ffffff;
+  }
+  .certifications{
+    background-color: #ff002e;
+    color: #ffffff;
+  }
+}
+
+/* Responsive Design for Small Screens */
+@media (max-width: 600px) {
+  .skills-bento {
+    grid-template-areas: 
+      "java-core"
+      "web-technologies"
+      "programming-languages"
+      "spring-framework"
+      "databases"
+      "orm"
+      "tools"
+      "other-skills"
+      "certs";
+    grid-template-columns: 1fr;
+  }
+}
+
+/*
+.skill-category ul li::before {
+  content: '•';
+  /*color: #007BFF;*//*
+  margin-right: 8px;
+  font-size: 20px;
+}*/
+
