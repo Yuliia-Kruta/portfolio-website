@@ -4,15 +4,14 @@ import projects from "../data/projects";
 const Projects = () => {
     return ( 
         <section className="projects" id="projects">
-            <Container className="projects-container">
+            <Container>
                 <Row>
                     <h1 className="section-title">Projects</h1>
                     <p className="section-description">I have used various technologies to develop applications. Here are some of my projects.</p>
                 </Row>
                 <Row className="projects-grid">
                     {projects.map((project) => (
-                        
-                        <div key={project.id} className="project-card project-box">
+                        <div key={project.id} className="project-card">
                             <img src={project.gif} alt={project.title} className="project-gif" />
                             <h3>{project.title}</h3>
                             <p>{project.description}</p>
