@@ -646,10 +646,9 @@
   background: #1d1d1d9e;
   border-radius: 12px;
   width: 330px;
-  height: 490px;
+  min-height: 490px;
   cursor: pointer;
   box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
-  overflow: hidden;
   padding: 26px 20px;
   transition: all 0.5s ease-in-out;
 }
@@ -661,33 +660,66 @@
 
 .project-gif {
   width: 100%;
-  height: auto;
+  height: 180px;
   border-radius: 8px;
   margin-bottom: 15px;
+  box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
 }
 
 .project-links {
   display: flex;
   justify-content: space-between;
   margin: 10px 0;
+  gap: 7px;
 }
 
-.project-links .btn {
+.project-button{
+  display: inline-block;
+  background-color: #121212;
+  color: #fff;
   padding: 10px 20px;
-  border-radius: 4px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.project-button:hover{
+  
+}
+
+.project-button-icon{
+  width: 40px;  
+  height: 40px; 
+  margin-right: 10px;
+}
+
+.button-content-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .project-tags {
-  margin-top: 10px;
+  /*margin-top: 10px;*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
 }
 
 .project-tag {
-  background: #ff002e;
+  /*background: #ff002e;
   color: #fff;
   padding: 5px 10px;
   border-radius: 4px;
   margin-right: 5px;
-  display: inline-block;
+  display: inline-block;*/
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff002e;
+  background-color: #121212;
+  padding: 2px 8px;
+  border-radius: 10px;
 }
 
 
