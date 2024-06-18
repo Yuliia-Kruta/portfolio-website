@@ -1,12 +1,12 @@
 import skillsBento from "../data/skills";
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row } from "react-bootstrap"
 
 const Skills = () => {
     return ( 
         <section className="skills" id="skills">
             <Container>
                 <Row className="aligh-items-center">
-                    <h1 className="section-title">My skills</h1>
+                    <h1 className="section-title">Skills</h1>
                     <div className="skills-bento">
                         {skillsBento.map((category) => (
                             <div key={category.title} className={`skill-category ${category.area}`}>
