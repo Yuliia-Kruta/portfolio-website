@@ -5,16 +5,17 @@ import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
 import { useState } from "react";
 import Pagination from "./Pagination";
 
-const Projects = () => {
+const Projects = ({openModal,setOpenModal}) => {
 
     const [currentPage, setCurrentPage] = useState(1);
     const projectsPerPage = 6; 
-    const maxTagsToShow = 3; // Maximum number of tags to display before showing the "+n" indicator
+    const maxTagsToShow = 3; 
 
     
     const indexOfLastProject = currentPage * projectsPerPage;
     const indexOfFirstProject = indexOfLastProject - projectsPerPage;
     const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
+
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
@@ -34,7 +35,7 @@ const Projects = () => {
                         <div key={skill} className="project-tag">{skill}</div>
                     ))}
                     <div className="more-tags-indicator">
-                        +{hiddenTagsCount}more
+                        +{hiddenTagsCount}
                     </div>
                 </>
             );
@@ -50,7 +51,7 @@ const Projects = () => {
                 </Row>
                 <Row className="projects-grid">
                     {currentProjects.map((project) => (
-                        <div key={project.id} className="project-card">
+                        <div key={project.id} className="project-card" onClick={() => setOpenModal({state: true, project: project})}>
                             <img src={project.gif} alt={project.title} className="project-gif" />
                             <div className="project-card-text">
                                 <h3 className="project-title">{project.title}</h3>
