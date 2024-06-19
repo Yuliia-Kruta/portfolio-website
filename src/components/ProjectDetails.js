@@ -1,6 +1,8 @@
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import React from 'react';
+import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
+import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
 
@@ -21,16 +23,24 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
                     <img className="modal-gif" src={project?.gif} alt="Project image" />
-                    <div className="modal-title">{project?.title}</div>
-                    <div className="modal-tags">
-                        {project?.skills.map((skill, index) => (
-                            <div key={index} className="modal-tag">{skill}</div>
-                        ))}
-                    </div>
+                    <h3 className="modal-title">{project?.title}</h3>
                     <div className="modal-description">{project?.description}</div>
                     <div className="modal-button-group">
-                        <a className="modal-button" dull href={project?.liveDemo} target='new'>Live Demo</a>
-                        <a className="modal-button" href={project?.sourceCode} target='new'>Source Code</a>
+                        <a className="modal-button" dull href={project?.liveDemo} target='new'>
+                            <div className="button-content-wrapper">
+                                <GlobeIcon className="project-button-icon"/>Live Demo
+                            </div>
+                        </a>
+                        <a className="modal-button" href={project?.sourceCode} target='new'>
+                            <div className="button-content-wrapper">
+                                <GithubIcon  className="project-button-icon"/>Source Code
+                            </div>
+                        </a>
+                    </div>
+                    <div className="modal-tags">
+                        {project?.skills.map((skill, index) => (
+                            <div key={index} className="project-tag">{skill}</div>
+                        ))}
                     </div>
                 </div>
             </div>
