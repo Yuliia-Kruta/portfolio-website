@@ -728,3 +728,32 @@
     width: 100%;
   }
 }
+
+
+/************ Projects -> Pagination Css ************/
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 10px 20px;
+  border: 1px solid #ff002e;
+  border-radius: 5px;
+  background-color: #121212;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 2px 1px #1d1d1d9e;
+}
+
+.page-link:hover, .page-item.active .page-link {
+  color: #ffffff;
+  background-color: #ff002e;
+  border-color: #ff002e;
+}
