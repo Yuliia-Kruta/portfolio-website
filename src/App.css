@@ -776,6 +776,42 @@
 }
 
 
+/*Last*/
+.project-tags {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+  max-height: 20px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.project-tags .project-tag {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff002e;
+  background-color: #121212;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.project-tags .more-tags-indicator {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ff002e;
+  background-color: #121212;
+  padding: 2px 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+
+
+
 /************ Projects -> Pagination Css ************/
 .pagination {
   display: flex;

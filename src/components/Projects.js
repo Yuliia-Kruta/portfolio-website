@@ -9,6 +9,8 @@ const Projects = () => {
 
     const [currentPage, setCurrentPage] = useState(1);
     const projectsPerPage = 6; 
+    const maxTagsToShow = 3; // Maximum number of tags to display before showing the "+n" indicator
+
     
     const indexOfLastProject = currentPage * projectsPerPage;
     const indexOfFirstProject = indexOfLastProject - projectsPerPage;
@@ -16,6 +18,27 @@ const Projects = () => {
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+    };
+
+    const renderTags = (tags) => {
+        if (tags.length <= maxTagsToShow) {
+            return tags.map((skill) => (
+                <div key={skill} className="project-tag">{skill}</div>
+            ));
+        } else {
+            const visibleTags = tags.slice(0, maxTagsToShow);
+            const hiddenTagsCount = tags.length - maxTagsToShow;
+            return (
+                <>
+                    {visibleTags.map((skill) => (
+                        <div key={skill} className="project-tag">{skill}</div>
+                    ))}
+                    <div className="more-tags-indicator">
+                        +{hiddenTagsCount}more
+                    </div>
+                </>
+            );
+        }
     };
 
     return ( 
@@ -46,9 +69,8 @@ const Projects = () => {
                                 </a>
                             </div>
                             <div className="project-tags">
-                            {project.skills.map(skill => (
-                                <div key={skill} className="project-tag">{skill}</div>
-                            ))}
+                            {renderTags(project.skills)}
+                            
                             </div>
                         </div>
                    
@@ -67,3 +89,8 @@ const Projects = () => {
  
 export default Projects;
 
+/*
+{project.skills.map(skill => (
+                                <div key={skill} className="project-tag">{skill}</div>
+                            ))}
+*/ 
