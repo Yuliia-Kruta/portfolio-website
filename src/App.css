@@ -612,120 +612,51 @@
   margin-bottom: 40px;
 }
 
-/*
-.projects .controls {
-  margin: 20px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.search-input, .filter-select, .sort-select {
-  width: 100%;
-  padding: 8px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}*/
-
-
-/* Add new styles for controls container */
+/* Projects controls (search, filter, sort) */
 .project-controls {
   display: flex;
   justify-content: center;
-  justify-self: center;
   align-items: center;
   margin: 20px 0;
   width: 1030px;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  /*padding: 0 122px;*/
 }
 
 .project-search-input {
-  /*margin-right: 20px;*/
   width: auto;
+  padding: 0;
 }
 
 .form-control{
   width: 200px;
 }
-.form-control:hover{
-  box-shadow: 0 0 2px 2px #ff002e;
-}
-.form-control:focus{
+.form-control:hover, .form-control:focus{
   box-shadow: 0 0 2px 2px #ff002e;
 }
 
 .filter-sort-container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   width: auto;
   margin-left: auto;
+  padding: 0;
 }
 
-.filter-select, .sort-select {
-  margin-left: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #1d1d1d;
-  color: #fff;
+.filter-button.btn-primary, .filter-button.btn:first-child:active{
+  background-color: #ff002e;
+  border-color: #ff002e;
 }
 
-/* Responsive design for medium screens */
-@media (max-width: 1024px) {
-  .project-controls {
-    justify-content: center;
-    align-items: flex-start;
-  }
+.filter-button.btn-primary:hover{
+  box-shadow: 0 0 2px 2px #ff002e;
 }
-
-  @media (max-width: 1200px) {
-    .project-controls {
-      width: 680px;
-  }
-}
-
-  @media (max-width: 767px) {
-    .project-controls {
-      width: 330px;
-  }
-
-  .project-search-input {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-  .filter-sort-container {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-}
-
-/* Responsive design for small screens */
-@media (max-width: 600px) {
-  .project-controls {
-    padding: 0 10px;
-  }
-
-  .project-search-input, .filter-select/*, .sort-select */{
-    width: 100%;
-    margin-bottom: 10px;
-  }
-
-
-}
-
-/*New styling for dropdown*/
 
 .filter-dropdown .dropdown-menu {
   background-color: black;
   border: none;
   padding: 10px;
-
   width: 300px;
 }
 
@@ -741,17 +672,10 @@
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
-  user-select: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background-color 0.3s, color 0.3s;
-
-
 }
 
 .filter-dropdown .dropdown-menu .tag-item.selected {
-  background-color: red;
+  background-color: #ff002e;
 }
 
 .filter-dropdown .dropdown-menu .tag-item:hover {
@@ -759,29 +683,36 @@
 
 }
 
-.filter-button{
-  background-color: #ff002e;
-  border-color: #ff002e;
-}
-
-.filter-button:hover, .filter-button:focus, .filter-button:checked{
-  background-color: #ff002e;
-  border-color: #ff002e;
-  box-shadow: 0 0 2px 2px #ff002e;;
-}
-
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
-  background-color: #ff002e;
-  border-color: #ff002e;
-  box-shadow: 0 0 2px 2px #ff002e;;
+.sort-select {
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1d1d1d;
+  color: #fff;
 }
 
 .sort-select:hover{
   border-color: #ff002e;
 }
 
-/*End of controls*/
+@media (max-width: 1200px) {
+  .project-controls {
+    width: 680px;
+  }
+}
+  @media (max-width: 767px) {
+    .project-controls {
+      width: 330px;
+  }
 
+  .project-search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+/* End of Projects controls */
+
+/* Projects grid */
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
@@ -796,7 +727,6 @@
   justify-content: flex-start; 
   align-items: center;
   gap: 14px;
-  /*flex-wrap: wrap;*/
   margin-bottom: 30px;
   background: #1d1d1d9e;
   border-radius: 12px;
@@ -806,6 +736,7 @@
   padding: 22px 20px;
   transition: all 0.5s ease-in-out;
   overflow: hidden;  
+  cursor: pointer;
 }
 
 .project-card:hover {
@@ -862,10 +793,16 @@
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 10px;
+  transition: all 0.5s ease;
 }
 
 .project-button:hover{
-  
+  box-shadow: 0 0 2px 2px #ff002e;
+}
+
+.button-content-wrapper {
+  display: flex;
+  align-items: center;
 }
 
 .project-button-icon{
@@ -874,98 +811,25 @@
   margin-right: 10px;
 }
 
-.button-content-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.project-tags {
-  /*margin-top: 10px;*/
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  
-  max-height: 20px; /* Adjust the max height as needed */
-
-  text-overflow: ellipsis;
-  white-space: nowrap; /* Ensures tags stay on one line */
-  
-  /*max-height: 20px;
-  overflow: hidden;
-  
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-
-  overflow: hidden;
-  text-overflow: ellipsis;*/
-
-  /*max-height: 150px; /* Adjust this height as needed */
-  /*overflow-y: auto; /* Allow scrolling */
-  /*padding-right: 10px;*/
-}
-
-.project-tag {
-  /*background: #ff002e;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 4px;
-  margin-right: 5px;
-  display: inline-block;*/
-  font-size: 12px;
-  font-weight: 400;
-  color: #ff002e;
-  background-color: #121212;
-  padding: 2px 8px;
-  border-radius: 10px;
-}
-
-
-@media (max-width: 600px) {
-  .project-card {
-    width: 100%;
-    margin: 0 10px;
-  }
-}
-
-
-/*Last*/
 .project-tags {
   width: 100%;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 8px;
-  margin-top: 2px;
-  max-height: 26px; 
+  max-height: 26px;   
 }
 
-.project-tags .project-tag {
+.project-tag, .more-tags-indicator {
   font-size: 12px;
-  font-weight: 400;
   color: #ff002e;
   background-color: #121212;
   padding: 4px 8px;
   border-radius: 10px;
-  white-space: nowrap;
 }
+/* End of Projects grid */
 
-.project-tags .more-tags-indicator {
-  font-size: 12px;
-  font-weight: 400;
-  color: #ff002e;
-  background-color: #121212;
-  padding: 2px 8px;
-  border-radius: 10px;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-
-
-
-/************ Projects -> Pagination Css ************/
+/* Projects pagination */
 .pagination {
   display: flex;
   justify-content: center;
@@ -985,19 +849,18 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   box-shadow: 0 0 2px 1px #1d1d1d9e;
+  width: 50px;
 }
 
 .page-link:hover, .page-item.active .page-link {
   color: #ffffff;
   background-color: #ff002e;
   border-color: #ff002e;
+  box-shadow: none;
 }
+/* End of Projects pagination */
 
-/************ Modal Css ************/
-
-Modal{
-  z-index: 5;
-}
+/* Projects Modal */
 .modal-container {
   width: 100%;
   height: 100%;
@@ -1005,7 +868,6 @@ Modal{
   top: 0;
   left: 0;
   display: flex;
-  align-items: top;
   justify-content: center;
   overflow-y: scroll;
   transition: all 0.5s ease;
@@ -1013,7 +875,6 @@ Modal{
 
 .modal-wrapper {
   max-width: 800px;
-  width: 100%;
   border-radius: 16px;
   margin: 50px 12px;
   height: min-content;
@@ -1022,6 +883,14 @@ Modal{
   flex-direction: column;
   position: relative;
   background-color: #1d1d1d;
+}
+
+.modal-gif {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 30px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
 .modal-title {
@@ -1038,7 +907,6 @@ Modal{
 .modal-description {
   font-size: 16px;
   font-weight: 400;
-  color: var(--text-primary-color);
   margin: 8px 6px;
 }
 
@@ -1049,13 +917,29 @@ Modal{
   }
 }
 
-/* Image */
-.modal-gif {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-top: 30px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+.modal-button-group {
+  display: flex;
+  margin: 12px 0px;
+  gap: 12px;
+}
+
+.modal-button {
+  font-weight: 600;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.modal-button:hover {
+  box-shadow: 0 0 2px 2px #ff002e;
+}
+
+@media only screen and (max-width: 600px) {
+  .modal-button {
+      font-size: 12px;
+  }
 }
 
 .modal-tags {
@@ -1070,52 +954,4 @@ Modal{
       margin: 4px 0px;
   }
 }
-
-
-@media only screen and (max-width: 600px) {
-  .modal-tag {
-      font-size: 12px;
-  }
-}
-
-.modal-button-group {
-  display: flex;
-  justify-content: start;
-  margin: 12px 0px;
-  gap: 12px;
-}
-
-/* Button */
-.modal-button {
-  text-align: center;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--text-primary-color);
-  padding: 12px 16px;
-  border-radius: 8px;
-  background-color: var(--primary-color);
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.5s ease;
-}
-
-.modal-button:hover {
-  
-  box-shadow: 0 0 2px 2px #ff002e;
-
-}
-
-.modal-button[dull] {
-  background-color: var(--bg-light-color);
-  color: var(--text-secondary-color);
-}
-
-.modal-button[dull]:hover {
-  background-color: rgba(var(--bg-color), 0.6);
-}
-
-@media only screen and (max-width: 600px) {
-  .modal-button {
-      font-size: 12px;
-  }
-}
+/* End of Projects Modal */
