@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import { useState } from 'react';
 import ProjectDetails from './components/ProjectDetails';
+import { Footer } from './components/Footer';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Timeline />
       {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
+      <Footer />
     </div>
   );
 }
