@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Form, Dropdown } from "react-bootstrap"
 import projects from "../data/projects";
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
@@ -8,18 +8,62 @@ import Pagination from "./Pagination";
 const Projects = ({openModal,setOpenModal}) => {
 
     const [currentPage, setCurrentPage] = useState(1);
+    const [searchQuery, setSearchQuery] = useState("");
+    const [selectedTags, setSelectedTags] = useState([]);
+    const [sortCriteria, setSortCriteria] = useState("");
+
     const projectsPerPage = 6; 
     const maxTagsToShow = 3; 
 
-    
-    const indexOfLastProject = currentPage * projectsPerPage;
-    const indexOfFirstProject = indexOfLastProject - projectsPerPage;
-    const currentProjects = projects.slice(indexOfFirstProject, indexOfLastProject);
+    const handleSearchChange = (e) => {
+        setSearchQuery(e.target.value);
+        setCurrentPage(1);
+    };
 
+    const handleTagChange = (tag) => {
+        setSelectedTags((prevSelectedTags) =>
+            prevSelectedTags.includes(tag)
+                ? prevSelectedTags.filter((t) => t !== tag)
+                : [...prevSelectedTags, tag]
+        );
+        setCurrentPage(1);
+    };
+
+    const handleSortChange = (criteria) => {
+        console.log(criteria)
+        setSortCriteria(criteria);
+        setCurrentPage(1);
+    };
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
     };
+
+    // Utility functions
+    const filterProjects = (projects) => {
+        return projects.filter(project => {
+            const matchesSearch = project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                                  project.description.toLowerCase().includes(searchQuery.toLowerCase());
+            const matchesTags = selectedTags.length === 0 || selectedTags.every(tag => project.skills.includes(tag));
+            return matchesSearch && matchesTags;
+        });
+    };
+
+    const sortProjects = (projects) => {
+        console.log("Inside sort");
+        return projects.sort((a, b) => {
+            if (sortCriteria === "title-asc") return a.title.localeCompare(b.title);
+            if (sortCriteria === "title-desc") return b.title.localeCompare(a.title);
+            return 0;
+        });
+    };
+
+    const filteredProjects = filterProjects(projects);
+    const sortedProjects = sortProjects(filteredProjects);
+    const indexOfLastProject = currentPage * projectsPerPage;
+    const indexOfFirstProject = indexOfLastProject - projectsPerPage;
+    const currentProjects = sortedProjects.slice(indexOfFirstProject, indexOfLastProject);
+
 
     const renderTags = (tags) => {
         if (tags.length <= maxTagsToShow) {
@@ -49,6 +93,41 @@ const Projects = ({openModal,setOpenModal}) => {
                     <h1 className="section-title">Projects</h1>
                     <p className="section-description">I have used various technologies to develop applications. Here are some of my projects.</p>
                 </Row>
+                <Row className="project-controls">
+                    <div className="project-search-input">
+                        <Form.Control
+                            type="text"
+                            placeholder="Search Projects"
+                            value={searchQuery}
+                            onChange={handleSearchChange}
+                        />
+                    </div>
+                    <div className="filter-sort-container">
+                        <Dropdown className="filter-dropdown">
+                                <Dropdown.Toggle className="filter-button" id="dropdown-basic">
+                                    Filter by tags
+                                </Dropdown.Toggle>
+                                <Dropdown.Menu>
+                                    <div className="tags-container">
+                                        {Array.from(new Set(projects.flatMap((project) => project.skills))).map((tag) => (
+                                            <div
+                                                key={tag}
+                                                className={`tag-item ${selectedTags.includes(tag) ? 'selected' : ''}`}
+                                                onClick={() => handleTagChange(tag)}
+                                            >
+                                                {tag}
+                                            </div>
+                                        ))}
+                                    </div>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        <Form.Control className="sort-select" as="select" value={sortCriteria} onChange={e => handleSortChange(e.target.value)}>
+                            <option className="sort-option" value="default">Default</option>
+                            <option className="sort-option" value="title-asc">Sort by Title (A-Z)</option>
+                            <option className="sort-option" value="title-desc">Sort by Title (Z-A)</option>
+                        </Form.Control>
+                    </div>
+                </Row>
                 <Row className="projects-grid">
                     {currentProjects.map((project) => (
                         <div key={project.id} className="project-card" onClick={() => setOpenModal({state: true, project: project})}>
@@ -58,12 +137,12 @@ const Projects = ({openModal,setOpenModal}) => {
                                 <p className="project-description">{project.description}</p>
                             </div>
                             <div className="project-links">
-                                <a href={project.liveDemo} className="project-button">
+                                <a href={project.liveDemo} className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
                                         <GlobeIcon className="project-button-icon"/>Live Demo
                                     </div>
                                 </a>
-                                <a href={project.sourceCode} className="project-button">
+                                <a href={project.sourceCode} className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
                                         <GithubIcon  className="project-button-icon"/>Source Code
                                     </div>
@@ -95,3 +174,40 @@ export default Projects;
                                 <div key={skill} className="project-tag">{skill}</div>
                             ))}
 */ 
+
+/*
+const filteredProjects = projects
+        .filter((project) => 
+            project.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
+            project.description.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+        .filter((project) => 
+            selectedTags.length === 0 || 
+            selectedTags.some(tag => project.skills.includes(tag))
+        )
+        .sort((a, b) => {
+            if (sortCriteria === "name") {
+                return a.title.localeCompare(b.title);
+            } else if (sortCriteria === "date") {
+                return new Date(b.date) - new Date(a.date);
+            }
+            return 0;
+        }); */
+
+
+        /*<Dropdown className="filter-select">
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                Filter by Tags
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                                {Array.from(new Set(projects.flatMap(project => project.skills))).map(tag => (
+                                    <Dropdown.Item
+                                        key={tag}
+                                        onClick={() => handleTagChange(tag)}
+                                        active={selectedTags.includes(tag)}
+                                    >
+                                        {tag}
+                                    </Dropdown.Item>
+                                ))}
+                            </Dropdown.Menu>
+                        </Dropdown> */
