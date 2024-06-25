@@ -5,15 +5,13 @@ import githubIcon from '../assets/img/github-icon.svg';
 import gmailIcon from '../assets/img/gmail-icon.svg';
 import heroText from "../data/heroText";
 
-//maybe home-content not needed
-
 const Hero = () => {
     return ( 
         <section className="home" id="home">
             <Container>
                 <Row className="aligh-items-center">
                 <Col xs={12} md={6} xl={7}>
-                    <div className="home-content">
+                    <div>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>Hi! It's <span>Yuliia</span></h1>
                         <h3>I am a <span>Software Engineer</span></h3>
@@ -21,9 +19,9 @@ const Hero = () => {
                         <div className="social-icons-container">
                             <div className="social-icons-text">Let's Connect!</div>
                             <div className="social-icons">
-                                <a href="#"><img src={linkedinIcon} alt="" /></a>
-                                <a href="#"><img src={githubIcon} alt="" /></a>
-                                <a href="#"><img src={gmailIcon} alt="" /></a>
+                                <a href="https://www.linkedin.com/in/yuliia-kruta-300173263/" target="_blank"><img src={linkedinIcon} alt="My LinkedIn" /></a>
+                                <a href="https://github.com/Yuliia-Kruta" target="_blank"><img src={githubIcon} alt="My Github" /></a>
+                                <a href="mailto: yuliia.krutaa@gmail.com" target="_blank"><img src={gmailIcon} alt="My email" /></a>
                             </div>
                         </div>
                     </div>
