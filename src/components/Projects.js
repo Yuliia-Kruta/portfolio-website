@@ -1,9 +1,10 @@
+import { useState } from "react";
 import { Container, Row, Col, Form, Dropdown } from "react-bootstrap"
+import Pagination from "./Pagination";
 import projects from "../data/projects";
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
-import { useState } from "react";
-import Pagination from "./Pagination";
+
 
 const Projects = ({openModal,setOpenModal}) => {
 
@@ -39,7 +40,6 @@ const Projects = ({openModal,setOpenModal}) => {
         setCurrentPage(pageNumber);
     };
 
-    // Utility functions
     const filterProjects = (projects) => {
         return projects.filter(project => {
             const matchesSearch = project.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -50,7 +50,6 @@ const Projects = ({openModal,setOpenModal}) => {
     };
 
     const sortProjects = (projects) => {
-        console.log("Inside sort");
         return projects.sort((a, b) => {
             if (sortCriteria === "title-asc") return a.title.localeCompare(b.title);
             if (sortCriteria === "title-desc") return b.title.localeCompare(a.title);
@@ -91,7 +90,7 @@ const Projects = ({openModal,setOpenModal}) => {
             <Container>
                 <Row>
                     <h1 className="section-title">Projects</h1>
-                    <p className="section-description">I have used various technologies to develop applications. Here are some of my projects.</p>
+                    <p className="section-description">I have used various technologies to develop applications. Here are some of my featured projects.</p>
                 </Row>
                 <Row className="project-controls">
                     <div className="project-search-input">
@@ -168,46 +167,3 @@ const Projects = ({openModal,setOpenModal}) => {
 }
  
 export default Projects;
-
-/*
-{project.skills.map(skill => (
-                                <div key={skill} className="project-tag">{skill}</div>
-                            ))}
-*/ 
-
-/*
-const filteredProjects = projects
-        .filter((project) => 
-            project.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-            project.description.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-        .filter((project) => 
-            selectedTags.length === 0 || 
-            selectedTags.some(tag => project.skills.includes(tag))
-        )
-        .sort((a, b) => {
-            if (sortCriteria === "name") {
-                return a.title.localeCompare(b.title);
-            } else if (sortCriteria === "date") {
-                return new Date(b.date) - new Date(a.date);
-            }
-            return 0;
-        }); */
-
-
-        /*<Dropdown className="filter-select">
-                            <Dropdown.Toggle variant="success" id="dropdown-basic">
-                                Filter by Tags
-                            </Dropdown.Toggle>
-                            <Dropdown.Menu>
-                                {Array.from(new Set(projects.flatMap(project => project.skills))).map(tag => (
-                                    <Dropdown.Item
-                                        key={tag}
-                                        onClick={() => handleTagChange(tag)}
-                                        active={selectedTags.includes(tag)}
-                                    >
-                                        {tag}
-                                    </Dropdown.Item>
-                                ))}
-                            </Dropdown.Menu>
-                        </Dropdown> */
