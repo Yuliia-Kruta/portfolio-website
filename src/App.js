@@ -6,16 +6,18 @@ import Hero from './components/Hero';
 import Timeline from './components/Timeline';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import ProjectDetails from './components/ProjectDetails';
 import { Footer } from './components/Footer';
+import { ThemeContext } from './Theme';
 
 function App() {
 
+  const { theme } = useContext(ThemeContext);
   const [openModal, setOpenModal] = useState({ state: false, project: null });
 
   return (
-    <div className="App">
+    <div className={`App ${theme}`}>
       <NavBar />
       <Hero />
       <Skills />

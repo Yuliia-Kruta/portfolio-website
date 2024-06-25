@@ -2,8 +2,12 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import timelineElements from "../data/timelineElements"
 import { Container } from "react-bootstrap"
 import { icons } from "../util/exportIcons"
+import { useContext } from "react"
+import { ThemeContext } from "../Theme"
 
 const Timeline = () => {
+
+    const {theme} = useContext(ThemeContext);
 
     function selectIcon(iconName){
         let IconComponent = icons[iconName]; 
@@ -22,7 +26,7 @@ const Timeline = () => {
                                     key={element.id}
                                     date={element.date}
                                     dateClassName="date"
-                                    iconStyle={{backgroundColor: "#121212"}}
+                                    iconStyle={{ backgroundColor: theme === "dark-theme" ? "#121212" : "#ffffff" }}
                                     icon={selectIcon(element.icon)}
                                 >
                                 <h3 className="vertical-timeline-element-title">

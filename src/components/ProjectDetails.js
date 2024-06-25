@@ -1,17 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { CloseRounded, GitHub, LinkedIn } from '@mui/icons-material';
 import { Modal } from '@mui/material';
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
+import { ThemeContext } from '../Theme';
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
 
     const project = openModal?.project;
+    const { theme } = useContext(ThemeContext);
 
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <div className="modal-container">
-                <div className="modal-wrapper">
+                <div className={`modal-wrapper ${theme}`}>
                     <CloseRounded
                         style={{
                             position: "absolute",
