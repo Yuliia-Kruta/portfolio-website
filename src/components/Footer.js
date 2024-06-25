@@ -17,9 +17,9 @@ export const Footer = () => {
             <div className="social-icons-container">
                 <div className="social-icons-text">Let's Connect!</div>
                 <div className="social-icons">
-                    <a href="#"><img src={linkedinIcon} alt="" /></a>
-                    <a href="#"><img src={githubIcon} alt="" /></a>
-                    <a href="#"><img src={gmailIcon} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/yuliia-kruta-300173263/" target="_blank"><img src={linkedinIcon} alt="My LinkedIn" /></a>
+                    <a href="https://github.com/Yuliia-Kruta" target="_blank"><img src={githubIcon} alt="My Github" /></a>
+                    <a href="mailto: yuliia.krutaa@gmail.com" target="_blank"><img src={gmailIcon} alt="My email" /></a>
                 </div>
             </div>
             <p>Copyright 2024. All Rights Reserved</p>
