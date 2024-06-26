@@ -1,9 +1,13 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { Navbar, Nav, Container} from "react-bootstrap"
 import { sectionIds } from "./SectionIds";
+import { ThemeContext } from "../Theme";
+import { ReactComponent as Sun } from '../assets/img/sun-icon.svg';
+import { ReactComponent as Moon } from '../assets/img/moon-icon.svg';
 
 const NavBar = () => {
-    
+
+    const {theme, toggleTheme} = useContext(ThemeContext);
     const [activeLink, setActiveLink] = useState("home");
 
     function scrollToSection(sectionId){
@@ -45,6 +49,15 @@ const NavBar = () => {
           <Navbar.Brand href="/">
             Yuliia <span>Kruta</span>
           </Navbar.Brand>
+          <button
+            type="button"
+            onClick={toggleTheme}
+            className="toggle-theme-button"
+            aria-label="toggle theme"
+            tool
+          >
+            {theme === "dark-theme" ? <Sun width="30px" height="30px" /> : <Moon width="24px" height="24px" />}
+          </button>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>

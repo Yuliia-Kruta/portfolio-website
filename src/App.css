@@ -179,12 +179,12 @@
     width: 100%;
     top: 0;
     z-index: 1299;
-    transition:  0.32s ease-in-out;
     background-color: var(--main-bg);
+    display: flex; 
+    align-items: center;
   }
 
   nav.navbar a.navbar-brand {
-      width: 9%;
       font-size: 1.5rem;
       font-weight: 600;
       color: var(--main-fg);
@@ -193,6 +193,14 @@
   nav.navbar a.navbar-brand span{
     color: var(--main-red); 
     text-shadow: var(--is-box-shadow);
+}
+
+.navbar-nav{
+  margin-left: 0;
+}
+
+.navbar-collapse{
+  flex-grow: 0;
 }
 
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -254,9 +262,18 @@
   nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
       border-color: transparent;
   }
-  
 
-  /************ Hero Section Css ************/
+/* Theme Toggler */
+.toggle-theme-button{
+  justify-self: flex-end;
+  margin-left: auto;
+  margin-right: 4px; 
+  background: none; 
+  border: none; 
+  padding: 0; 
+}
+
+/************ Hero Section Css ************/
 .home {
     margin-top: 0;
     padding: 200px 0 100px 0;
