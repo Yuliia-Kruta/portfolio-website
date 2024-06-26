@@ -13,7 +13,7 @@ const NavBar = () => {
     function scrollToSection(sectionId){
       const element = document.getElementById(sectionId);
       if(element){
-        const marginTop = 0;
+        const marginTop = 80;
         const scrollToY = element.getBoundingClientRect().top + window.scrollY - marginTop;
         window.scrollTo({top: scrollToY, behavior: "smooth"});
       }
