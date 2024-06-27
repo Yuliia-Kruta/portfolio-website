@@ -25,7 +25,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                     />
                     <img className="modal-gif" src={project?.gif} alt="Project image" />
                     <h3 className="modal-title">{project?.title}</h3>
-                    <div className="modal-description">{project?.description}</div>
+                    <p className="modal-description" dangerouslySetInnerHTML={{__html: project?.description}}/>
                     <div className="modal-button-group">
                         <a className="modal-button" dull href={project?.liveDemo} target='new'>
                             <div className="button-content-wrapper">

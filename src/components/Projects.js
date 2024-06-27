@@ -133,15 +133,15 @@ const Projects = ({openModal,setOpenModal}) => {
                             <img src={project.gif} alt={project.title} className="project-gif" />
                             <div className="project-card-text">
                                 <h3 className="project-title">{project.title}</h3>
-                                <p className="project-description">{project.description}</p>
+                                <p className="project-description" dangerouslySetInnerHTML={{__html: project.description}}/>
                             </div>
                             <div className="project-links">
-                                <a href={project.liveDemo} className="project-button" onClick={(e)=> {e.stopPropagation()}}>
+                                <a href={project.liveDemo} target='new' className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
                                         <GlobeIcon className="project-button-icon"/>Live Demo
                                     </div>
                                 </a>
-                                <a href={project.sourceCode} className="project-button" onClick={(e)=> {e.stopPropagation()}}>
+                                <a href={project.sourceCode} target='new' className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
                                         <GithubIcon  className="project-button-icon"/>Source Code
                                     </div>
