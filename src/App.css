@@ -660,7 +660,7 @@
   box-shadow: var(--project-card-box-shadow);
   padding: 22px 20px;
   transition: all 0.5s ease-in-out;
-  overflow: hidden;  
+  overflow: scroll;  
   cursor: pointer;
 }
 
