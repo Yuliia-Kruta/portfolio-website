@@ -4,6 +4,7 @@ import Pagination from "./Pagination";
 import projects from "../data/projects";
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
+import { Tooltip } from '@mui/material';
 
 
 const Projects = ({openModal,setOpenModal}) => {
@@ -136,11 +137,21 @@ const Projects = ({openModal,setOpenModal}) => {
                                 <p className="project-description" dangerouslySetInnerHTML={{__html: project.description}}/>
                             </div>
                             <div className="project-links">
-                                <a href={project.liveDemo} target='new' className="project-button" onClick={(e)=> {e.stopPropagation()}}>
-                                    <div className="button-content-wrapper">
-                                        <GlobeIcon className="project-button-icon"/>Live Demo
-                                    </div>
-                                </a>
+                                {project?.liveDemo === "none" ? (
+                                    <Tooltip placement="top" title="Sorry, there is no live demo for this project.">
+                                        <span className="project-button disabled" onClick={(e) => { e.stopPropagation(); }}>
+                                            <div className="button-content-wrapper">
+                                                <GlobeIcon className="project-button-icon" /> Live Demo
+                                            </div>
+                                        </span>
+                                    </Tooltip>
+                                ) : (
+                                    <a href={project.liveDemo} target="new" className="project-button" onClick={(e) => { e.stopPropagation(); }}>
+                                        <div className="button-content-wrapper">
+                                            <GlobeIcon className="project-button-icon" /> Live Demo
+                                        </div>
+                                    </a>
+                                )}
                                 <a href={project.sourceCode} target='new' className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
                                         <GithubIcon  className="project-button-icon"/>Source Code
@@ -152,7 +163,7 @@ const Projects = ({openModal,setOpenModal}) => {
                             
                             </div>
                         </div>
-                   
+                
                     ))}
                 </Row>
                 <Pagination
