@@ -38,11 +38,11 @@ const projects = [
       {
         id: 5,
         title: "Shop Management System",
-        description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        gif: require("../assets/img/projectimage1.png"),  
-        liveDemo: "#",
-        sourceCode: "#",
-        skills: ["Python"]
+        description: "The Shop Management App is a Python-based GUI application designed to manage shop inventory and customer carts. Built using Python and tkinter this application allows shop managers to load inventory from a CSV file, display items in specified aisles, add products to a customer cart, and proceed to checkout. The app features intuitive error handling and user-friendly messages to ensure smooth operation.<br/><br/><h5>Features:</h5> Load Inventory: Load products from a CSV file. <br/>Display Inventory: Display items from a specified aisle.<br/>Add to Cart: Add selected products to the customer cart.<br/>View Cart: Display items in the cart along with the total cost.<br/>Checkout: Clear the cart and update the inventory file.<br/>Cancel Order: Clear the cart without proceeding to checkout.",
+        gif: require("../assets/gif/shop-management-system.gif"),  
+        liveDemo: "none",
+        sourceCode: "https://github.com/Yuliia-Kruta/shop-management-system",
+        skills: ["Python", "Tkinter"]
       },
       {
         id: 6,
