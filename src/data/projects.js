@@ -2,7 +2,7 @@ const projects = [
   {
       id: 1,
       title: "Find Campsite Auth",
-      description: "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval.",
+      description: "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
       gif: require("../assets/gif/find-campsite-auth.gif"),  
       liveDemo: "https://find-campsite-auth-website.onrender.com/",
       sourceCode: "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
@@ -20,11 +20,11 @@ const projects = [
     {
       id: 3,
       title: "OlaNotes",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-      gif: require("../assets/img/projectimage1.png"),  
-      liveDemo: "#",
-      sourceCode: "#",
-      skills: ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Thymeleaf", "RESTful API", "Maven", "Hibernate", "MySQL", "Databases"] 
+      description: "OlaNotes was my first-ever pet project. Although not all features were implemented, it helped me understand how the frontend and backend interact, as well as RESTful APIs.<br/><br/> OlaNotes is a cloud-based note-taking web application built with Java and Spring Boot. It allows users to securely register, log in, create and manage notes through intuitive dashboard. The application leverages a MySQL cloud database and is deployed using Docker on Render.  <br/><br><h5>Features:</h5> - User registration and authentication<br/> - Create, edit, and delete notes<br/> - Built-in text editor<br/> - Mark notes as favourite or pinned<br/> - Notes dashboard with grid and list views<br/> - Search notes<br/> - Edit user profile<br/> - Password encryption<br/> - Responsive design",
+      gif: require("../assets/gif/olanotes-2.gif"),  
+      liveDemo: "https://olanotes.onrender.com/",
+      sourceCode: "https://github.com/Yuliia-Kruta/OlaNotes",
+      skills: ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Thymeleaf", "RESTful API", "Maven", "Hibernate", "MySQL", "Databases", "Docker"] 
     },
     {
       id: 4,
@@ -91,12 +91,12 @@ const projects = [
     },
     {
       id: 11,
-      title: "Fallin Game",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-      gif: require("../assets/img/projectimage1.png"),  
-      liveDemo: "#",
-      sourceCode: "#",
-      skills: ["Java", "JavaFX"]
+      title: "Java Algorithmic Programs",
+      description: "This repository contains a collection of Java programs demonstrating various computational concepts, algorithms, and theoretical models.<br/><br/><h5>The programs included are:</h5>- Turing Test (turing-test branch)<br/>- String Transformations (string-transformations branch)<br/>- Basic Algorithms (basic-algorithms branch). Contains such programs as Collatz Conjecture, Euclidean Algorithm, Find Minimum and Maximum, Guess the Number, Palindrome Checker, Perfect Numbers, Pythagoras, Recursive Fibonacci, Factorial, and Digit Count, Series Calculation, Tower of Hanoi.<br/>- Sum of Permutations (permutation-sum branch)<br/>- Reverse Polish Notation (reverse-polish-notation branch)<br/> - Evaluate Reverse Polish Notation (evaluate-rpn branch)<br/> - Amicable Numbers (amicable-numbers branch)<br/><br/>Detailed description of each program can be found in respective branches.",
+      gif: require("../assets/img/java-algorithmic-programs.png"),  
+      liveDemo: "none",
+      sourceCode: "https://github.com/Yuliia-Kruta/java-algorithmic-programs",
+      skills: ["Java"]
     },
     {
       id: 12,
@@ -136,12 +136,39 @@ const projects = [
     },
     {
       id: 16,
-      title: "Fallin Game",
-      description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-      gif: require("../assets/img/projectimage1.png"),  
-      liveDemo: "#",
-      sourceCode: "#",
-      skills: ["Java", "JavaFX"]
+      title: "Graphics Editor",
+      description: "Graphics Editor is a simple and intuitive drawing application, similar to Paint, built using Python's Tkinter library. This tool allows users to draw, edit, and save their creations with various brushes, colors, shapes, and text. <br/><br/><h5>Features:</h5> - Drawing: Use different brush sizes and colors to draw freehand on the canvas.<br/> - Shapes: Add rectangles, circles, triangles, lines, and arcs with customizable colors.<br/> - Text: Add text with customizable fonts and colors.<br/> - Eraser: Erase parts of the drawing with different eraser sizes.<br/> - Background: Change the canvas background color. <br/> - Save: Save your drawing as an image file. <br/> - Open: Open and edit existing image files. <br/> - Fullscreen: Toggle fullscreen mode for an immersive drawing experience. <br/> - Clear: Clear the entire canvas. <br/> - Help: Access help and information about the application.",
+      gif: require("../assets/gif/graphic-editor.gif"),  
+      liveDemo: "none",
+      sourceCode: "https://github.com/Yuliia-Kruta/graphic-editor",
+      skills: ["Python", "Tkinter"]
+    },
+    {
+      id: 17,
+      title: "Cissoid of Diocles",
+      description: "This project is a Python application that allows users to plot the Cissoid of Diocles graph using a Tkinter-based GUI. The application takes user input for the necessary parameters and plots the graph using Matplotlib. <br/><br/> <h5>Features:</h5> Graph Plotting: Plots the Cissoid of Diocles graph based on user input.<br/>Error Handling: Provides feedback if the input values are invalid.<br/>Graph Customisation: Allows users to set the range and step for the graph.",
+      gif: require("../assets/gif/cissoid-diocles.gif"),  
+      liveDemo: "none",
+      sourceCode: "https://github.com/Yuliia-Kruta/cissoid-of-diocles",
+      skills: ["Python", "Tkinter", "Matplotlib"]
+    },
+    {
+      id: 18,
+      title: "Simple Python Apps",
+      description: "The repository contains a collection of simple Python projects that demonstrate basic programming concepts. <br/><br/>The projects included are: <br/><br/> - <b>Text-based adventure game</b> (text-adventure-game-branch)<br/> A simple text-based adventure game called \"Creepy House\" written on Python. Players can navigate through different rooms, pick up objects, and interact with the environment using basic commands. <br/> <br/> - <b>Quiz game</b> (quiz-game-branch) <br/> A simple command-line python quiz game that tests your knowledge on various python topics. The game randomly selects 5 questions from a predefined list and provides feedback on the correctness of your answers.",
+      gif: require("../assets/gif/text-game.gif"),  
+      liveDemo: "none",
+      sourceCode: "https://github.com/Yuliia-Kruta/simple-python-apps",
+      skills: ["Python"]
+    },
+    {
+      id: 19,
+      title: "Simple Java Apps",
+      description: "This repository contains simple Java applications that demonstrate fundamental programming concepts and problem-solving techniques. <br/><br/>The programs included are: <br/><br/> - <b>Delete Comments In Text</b> (delete-comments branch)<br/> This simple Java app removes comments from a text file. It handles both single-line (`// ...`) and multi-line (`/* ... */`) comments, producing a clean output file without comments. <br/> <br/> - <b>Simple Calendar</b> (simple-calendar branch) <br/> This simple Java-based console application displays a calendar for a given year. It takes user input for the year and prints the calendar month by month, showing the days of the week for each month.",
+      gif: require("../assets/img/simple-java-apps.png"),  
+      liveDemo: "none",
+      sourceCode: "https://github.com/Yuliia-Kruta/simple-java-apps",
+      skills: ["Java"]
     }
   ];
   
