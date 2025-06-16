@@ -408,9 +408,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
-    "java-core web-technologies programming-languages"
-    "spring-framework tools other-skills"
-    "databases orm certs";
+    "programming-languages frameworks tools"
+    "web-technologies cs-fundamentals mobile-gamedev"
+    "databases cloud certs";
   gap: 16px;
   padding: 20px;
   /*box-shadow: 0 0 25px #ff002e;*/
@@ -453,25 +453,25 @@
   margin: 0 0 7px 0;
 }
 
-.java-core { 
-  grid-area: java-core;
+.programming-languages { 
+  grid-area: programming-languages;
   background-color: var(--main-red);
   color: white;
  }
 
-.spring-framework { 
-  grid-area: spring-framework; 
-}
 .web-technologies { 
   grid-area: web-technologies; 
 }
-.programming-languages { 
-  grid-area: programming-languages; 
+.frameworks { 
+  grid-area: frameworks; 
+}
+.tools { 
+  grid-area: tools; 
   background-color: var(--main-fg);
   color: var(--main-bg);
 }
-.orm { 
-  grid-area: orm; 
+.cloud { 
+  grid-area: cloud; 
   background-color: var(--main-red);
   color: white;
 }
@@ -480,13 +480,13 @@
   background-color: var(--main-fg);
   color: var(--main-bg);
 }
-.other-skills { 
-  grid-area: other-skills; 
+.mobile-gamedev { 
+  grid-area: mobile-gamedev; 
   background-color: var(--main-red);
   color: white;
 }
-.tools { 
-  grid-area: tools; 
+.cs-fundamentals { 
+  grid-area: cs-fundamentals; 
   background-color: var(--main-fg);
   color: var(--main-bg);
 }
@@ -494,37 +494,55 @@
   grid-area: certs; 
 }
 
+.cert-link-icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 3px;
+  margin-top: 2px; 
+  color: var(--main-fg);
+}
+
+.cert-link-icon svg:hover {
+  filter: drop-shadow(0 0 10px var(--main-fg-dark));
+  transform: scale(1.15);
+}
+
+
 @media (max-width: 1024px) {
   .skills-bento {
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-      "java-core web-technologies"
-      "spring-framework programming-languages"
-      "databases orm"
-      "other-skills tools"
+      "programming-languages frameworks"
+      "web-technologies tools"
+      "databases cloud"
+      "mobile-gamedev cs-fundamentals"
       "certs certs";
   }
-  .other-skills{
+  .mobile-gamedev{
     background-color: var(--main-bg);
     color: var(--main-fg);
   }
   .certifications{
     background-color: var(--main-red);
-    color: var(--main-fg);
+    color: var(--main-fg-dark);
+  }
+  .cert-link-icon {
+    color: var(--main-fg-dark);
   }
 }
 
 @media (max-width: 600px) {
   .skills-bento {
     grid-template-areas: 
-      "java-core"
-      "web-technologies"
       "programming-languages"
-      "spring-framework"
-      "databases"
-      "orm"
+      "frameworks"
       "tools"
-      "other-skills"
+      "web-technologies"
+      "databases"
+      "cloud"
+      "cs-fundamentals"
+      "mobile-gamedev"
       "certs";
     grid-template-columns: 1fr;
   }
