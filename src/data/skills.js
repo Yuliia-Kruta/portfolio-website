@@ -16,7 +16,7 @@ const skillsBento = [
     },
     {
       title: "Tools & DevOps",
-      skills: ["Git & GitHub", "Postman", "Docker", "Maven, Gradle", "Figma", "Unit Testing (JUnit, Mockito, unittest, pytest)"],
+      skills: ["Git & GitHub", "Postman", "Docker", "Maven, Gradle", "Figma", "Unit Testing (JUnit, Mockito, unittest, pytest)", "Power BI"],
       area: "tools"
     },
     {
@@ -41,7 +41,7 @@ const skillsBento = [
     }, 
     {
       title: "Certifications",
-      skills: ["Information Technology Specialist in Python Certification", "Information Technology Specialist in Databases Certification", "Microsoft Azure Data Fundamentals Certification", "Microsoft Security, Compliance, and Identity Fundamentals Certification", "AWS Academy Graduate - AWS Academy Cloud Developing"],
+      skills: ["AWS Academy Graduate - AWS Academy Cloud Developing", "Information Technology Specialist in Python Certification", "Information Technology Specialist in Databases Certification", "Microsoft Azure Data Fundamentals Certification", "Microsoft Security, Compliance, and Identity Fundamentals Certification"],
       area: "certifications",
       link: "https://drive.google.com/drive/folders/1ZzbeK1_fdXyRJimagj9XnNM7TQPgKfPU?usp=sharing"
     }
