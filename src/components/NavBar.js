@@ -64,6 +64,17 @@ const NavBar = () => {
           >
             {theme === "dark-theme" ? <Sun width="30px" height="30px" /> : <Moon width="24px" height="24px" />}
           </button>
+
+          <button
+            type="button"
+            onClick={toggleLanguage}
+            className="toggle-lang-button"
+            aria-label="toggle language"
+          >
+            {i18n.language.toUpperCase()}
+          </button>
+
+
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>

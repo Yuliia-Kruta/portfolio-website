@@ -195,22 +195,33 @@
     text-shadow: var(--is-box-shadow);
 }
 
-.navbar-nav{
-  margin-left: 0;
-}
-
 .navbar-collapse{
   flex-grow: 0;
+  justify-self: end;
+}
+
+.navbar-nav{
+  margin-left: 0 !important;
+  min-width: 460px;
+  display: flex;
+  justify-content: space-between;
 }
 
   nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
     color: var(--main-fg) !important;
     letter-spacing: 0.8px;
-    padding: 0 25px;
+    padding: 0 8px;
     font-size: 18px;
     opacity: 0.75;
   }
+
+  a.navbar-link.nav-link {
+  display: flex;
+  align-items: center; 
+  justify-content: end;
+}
+
   nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
   nav.navbar .navbar-nav a.nav-link.navbar-link.active {
       opacity: 1;
@@ -267,11 +278,39 @@
 .toggle-theme-button{
   justify-self: flex-end;
   margin-left: auto;
-  margin-right: 10px; 
+  margin-right: 25px; 
   background: none; 
   border: none; 
   padding: 0; 
 }
+
+.toggle-theme-button svg:hover{
+ filter: drop-shadow(0 0 10px var(--main-fg));
+ transform: scale(1.15);
+}
+
+/* Language Toggler */
+.toggle-lang-button {
+  font-size: 14px;
+  padding: 2px 7px;
+  border: 1px solid var(--main-fg);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--main-fg);
+  cursor: pointer;
+  margin-right: 25px; 
+  font-weight: 500;
+  transition: background-color 0.2s, color 0.2;
+}
+
+.toggle-lang-button:hover {
+  background-color: var(--main-fg);
+  color: var(--main-bg);
+}
+
+/*.toggle-lang-button:hover {
+  box-shadow: 0 0 8px var(--main-fg);
+}*/
 
 /************ Hero Section Css ************/
 .home {
