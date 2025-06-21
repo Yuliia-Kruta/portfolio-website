@@ -8,7 +8,7 @@ import { useTranslation, Trans } from "react-i18next";
 
 const Hero = () => {
 
-    const { t, i18n } = useTranslation("hero");
+    const { t } = useTranslation("hero");
 
     return ( 
         <section className="home" id="home">
@@ -18,7 +18,7 @@ const Hero = () => {
                     <div>
                         <span className="tagline">{t("tagline")}</span>
                         <h1><Trans i18nKey="greeting" ns="hero" components={[<span />]} /></h1>
-                        <h3><Trans i18nKey="role" ns="hero" components={[<span />]} /></h3>
+                        <h3 className="role"><Trans i18nKey="role" ns="hero" components={[<span />]} /></h3>
                         <p>{t("description")}</p>
                         <div className="social-icons-container">
                             <div className="social-icons-text">{t("connect")}</div>

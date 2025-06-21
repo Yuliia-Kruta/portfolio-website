@@ -329,6 +329,10 @@
   color: var(--main-fg);
 }
 
+.role {
+  font-weight: 600;
+}
+
 .home h1 {
   font-size: 65px;
   font-weight: 700;
