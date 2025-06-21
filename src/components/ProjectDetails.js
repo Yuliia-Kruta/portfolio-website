@@ -4,11 +4,13 @@ import { Modal, Tooltip } from '@mui/material';
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
 import { ThemeContext } from '../Theme';
+import { useTranslation } from 'react-i18next';
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
 
     const project = openModal?.project;
     const { theme } = useContext(ThemeContext);
+    const { t } = useTranslation("projects");
 
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
@@ -23,29 +25,30 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <img className="modal-gif" src={project?.gif} alt="Project image" />
+                    <img src={require(`../assets/gif/${project.gif}.gif`)} alt={project.title} className="modal-gif" />
                     <h3 className="modal-title">{project?.title}</h3>
                     <p className="modal-description" dangerouslySetInnerHTML={{__html: project?.description}}/>
                     <div className="modal-button-group">
                         {project?.liveDemo === "none" ? (
-                            <Tooltip placement="top" title="Sorry, there is no live demo for this project.">
+                            <Tooltip placement="top" title={t("noLiveDemo")}>
                                 <span className="modal-button disabled">
                                     <div className="button-content-wrapper">
-                                        <GlobeIcon className="project-button-icon" /> Live Demo
+                                        <GlobeIcon className="project-button-icon" /> 
+                                        {t("liveDemo")}
                                     </div>
                                 </span>
                             </Tooltip>
                         ) : (
                             <a className="modal-button" dull href={project?.liveDemo} target='new'>
                                 <div className="button-content-wrapper">
-                                    <GlobeIcon className="project-button-icon"/>Live Demo
+                                    <GlobeIcon className="project-button-icon"/>{t("liveDemo")}
                                 </div>
                             </a>
                         )}
                         
                         <a className="modal-button" href={project?.sourceCode} target='new'>
                             <div className="button-content-wrapper">
-                                <GithubIcon  className="project-button-icon"/>Source Code
+                                <GithubIcon  className="project-button-icon"/>{t("sourceCode")}
                             </div>
                         </a>
                     </div>
