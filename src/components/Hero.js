@@ -3,7 +3,6 @@ import homeImg from "../assets/img/profile-photo.jpg";
 import linkedinIcon from '../assets/img/linkedin-icon.svg';
 import githubIcon from '../assets/img/github-icon.svg';
 import gmailIcon from '../assets/img/gmail-icon.svg';
-import heroText from "../data/heroText";
 import { useTranslation, Trans } from "react-i18next";
 
 const Hero = () => {

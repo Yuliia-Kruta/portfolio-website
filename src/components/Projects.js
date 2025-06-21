@@ -1,12 +1,10 @@
 import { useState } from "react";
 import { Container, Row, Col, Form, Dropdown } from "react-bootstrap"
 import Pagination from "./Pagination";
-//import projects from "../data/projects";
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
 import { Tooltip } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import projectGifs from '../util/projectGifsImages';
 
 
 const Projects = ({openModal,setOpenModal}) => {
