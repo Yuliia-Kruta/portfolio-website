@@ -4,20 +4,24 @@ import linkedinIcon from '../assets/img/linkedin-icon.svg';
 import githubIcon from '../assets/img/github-icon.svg';
 import gmailIcon from '../assets/img/gmail-icon.svg';
 import heroText from "../data/heroText";
+import { useTranslation, Trans } from "react-i18next";
 
 const Hero = () => {
+
+    const { t, i18n } = useTranslation("hero");
+
     return ( 
         <section className="home" id="home">
             <Container>
                 <Row className="aligh-items-center">
                 <Col xs={12} md={6} xl={7}>
                     <div>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>Hi! It's <span>Yuliia</span></h1>
-                        <h3>I am a <span>Software Engineer</span></h3>
-                        <p>{heroText[0]}</p>
+                        <span className="tagline">{t("tagline")}</span>
+                        <h1><Trans i18nKey="greeting" ns="hero" components={[<span />]} /></h1>
+                        <h3><Trans i18nKey="role" ns="hero" components={[<span />]} /></h3>
+                        <p>{t("description")}</p>
                         <div className="social-icons-container">
-                            <div className="social-icons-text">Let's Connect!</div>
+                            <div className="social-icons-text">{t("connect")}</div>
                             <div className="social-icons">
                                 <a href="https://www.linkedin.com/in/yuliia-kruta-300173263/" target="_blank"><img src={linkedinIcon} alt="My LinkedIn" /></a>
                                 <a href="https://github.com/Yuliia-Kruta" target="_blank"><img src={githubIcon} alt="My Github" /></a>

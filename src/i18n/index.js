@@ -6,12 +6,17 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import navbarEN from "../locales/en/navbar.json";
 import navbarUA from '../locales/ua/navbar.json';
 
+import heroEN from "../locales/en/hero.json";
+import heroUA from '../locales/ua/hero.json';
+
 const resources = {
   en: {
-    navbar: navbarEN
+    navbar: navbarEN,
+    hero: heroEN
   },
   ua: {
-    navbar: navbarUA
+    navbar: navbarUA,
+    hero: heroUA
   },
 };
 
@@ -23,7 +28,7 @@ i18n
     resources,
     fallbackLng: "en", 
     debug: true,
-    ns: ["navbar"], // Add your namespaces here
+    ns: ["navbar", "hero"],
     defaultNS: "navbar",
     interpolation: {
       escapeValue: false
