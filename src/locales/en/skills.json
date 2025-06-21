@@ -1,0 +1,15 @@
+{
+"title": "Skills",
+"viewCerts": "View Certifications",
+"categories": {
+    "Programming Languages": "Programming Languages",
+    "Web Technologies": "Web Technologies",
+    "Frameworks & Libraries": "Frameworks & Libraries",
+    "Tools & DevOps": "Tools & DevOps",
+    "Cloud & Hosting": "Cloud & Hosting",
+    "Databases": "Databases",
+    "Mobile & Game Dev & IoT": "Mobile & Game Dev & IoT",
+    "CS Fundamentals": "CS Fundamentals",
+    "Certifications": "Certifications"
+    }
+}

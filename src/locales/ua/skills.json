@@ -1,0 +1,15 @@
+{
+"title": "Навички",
+"viewCerts": "Перейти до сертифікатів",
+"categories": {
+    "Programming Languages": "Мови Програмування",
+    "Web Technologies": "Веб-технології",
+    "Frameworks & Libraries": "Фреймворки та Бібліотеки",
+    "Tools & DevOps": "Інструменти та Девопс",
+    "Cloud & Hosting": "Хмарні технології та Хостинг",
+    "Databases": "Бази Даних",
+    "Mobile & Game Dev & IoT": "Мобільна Розробка, Геймдев та IoT (Internet of Things)",
+    "CS Fundamentals": "Основи Комп’ютерних Наук",
+    "Certifications": "Сертифікації"
+    }
+}
