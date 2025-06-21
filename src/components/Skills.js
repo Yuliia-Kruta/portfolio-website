@@ -19,7 +19,7 @@ const Skills = () => {
                             <h3 className="skill-title">
                                 {t(`categories.${category.title}`)}
                                 {category.link && (
-                                    <Tooltip placement="top" title={t('viewCerts')}>
+                                    <Tooltip placement="top" title={t("viewCerts")}>
                                         <a  href={category.link}
                                             target="_blank"
                                             rel="noopener noreferrer"

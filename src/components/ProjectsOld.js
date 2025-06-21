@@ -1,19 +1,16 @@
 import { useState } from "react";
 import { Container, Row, Col, Form, Dropdown } from "react-bootstrap"
 import Pagination from "./Pagination";
-//import projects from "../data/projects";
+import projects from "../data/projects";
 import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
 import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
 import { Tooltip } from '@mui/material';
 import { useTranslation } from 'react-i18next';
-import projectGifs from '../util/projectGifsImages';
 
 
 const Projects = ({openModal,setOpenModal}) => {
 
-    const { t } = useTranslation("projects");
-    const projects = t("list", { returnObjects: true });
-
+    const { t } = useTranslation();
 
     const [currentPage, setCurrentPage] = useState(1);
     const [searchQuery, setSearchQuery] = useState("");
@@ -96,14 +93,14 @@ const Projects = ({openModal,setOpenModal}) => {
         <section className="projects" id="projects">
             <Container>
                 <Row>
-                    <h1 className="section-title">{t("sectionTitle")}</h1>
-                    <p className="section-description">{t("sectionDescription")}</p>
+                    <h1 className="section-title">Projects</h1>
+                    <p className="section-description">I have used various technologies to develop applications. Here are some of my featured projects.</p>
                 </Row>
                 <Row className="project-controls">
                     <div className="project-search-input">
                         <Form.Control
                             type="text"
-                            placeholder={t("searchPlaceholder")}
+                            placeholder="Search Projects"
                             value={searchQuery}
                             onChange={handleSearchChange}
                         />
@@ -111,7 +108,7 @@ const Projects = ({openModal,setOpenModal}) => {
                     <div className="filter-sort-container">
                         <Dropdown className="filter-dropdown">
                                 <Dropdown.Toggle className="filter-button" id="dropdown-basic">
-                                    {t("filterByTags")}
+                                    Filter by tags
                                 </Dropdown.Toggle>
                                 <Dropdown.Menu>
                                     <div className="tags-container">
@@ -128,42 +125,39 @@ const Projects = ({openModal,setOpenModal}) => {
                                 </Dropdown.Menu>
                             </Dropdown>
                         <Form.Control className="sort-select" as="select" value={sortCriteria} onChange={e => handleSortChange(e.target.value)}>
-                            <option className="sort-option" value="default">{t("sort.default")}</option>
-                            <option className="sort-option" value="title-asc">{t("sort.titleAsc")}</option>
-                            <option className="sort-option" value="title-desc">{t("sort.titleDesc")}</option>
+                            <option className="sort-option" value="default">Default</option>
+                            <option className="sort-option" value="title-asc">Sort by Title (A-Z)</option>
+                            <option className="sort-option" value="title-desc">Sort by Title (Z-A)</option>
                         </Form.Control>
                     </div>
                 </Row>
                 <Row className="projects-grid">
                     {currentProjects.map((project) => (
                         <div key={project.id} className="project-card" onClick={() => setOpenModal({state: true, project: project})}>
-                            <img src={require(`../assets/gif/${project.gif}.gif`)} alt={project.title} className="project-gif" />
+                            <img src={project.gif} alt={project.title} className="project-gif" />
                             <div className="project-card-text">
                                 <h3 className="project-title">{project.title}</h3>
                                 <p className="project-description" dangerouslySetInnerHTML={{__html: project.description}}/>
                             </div>
                             <div className="project-links">
                                 {project?.liveDemo === "none" ? (
-                                    <Tooltip placement="top" title={t("noLiveDemo")}>
+                                    <Tooltip placement="top" title="Sorry, there is no live demo for this project.">
                                         <span className="project-button disabled" onClick={(e) => { e.stopPropagation(); }}>
                                             <div className="button-content-wrapper">
-                                                <GlobeIcon className="project-button-icon" /> 
-                                                {t("liveDemo")}
+                                                <GlobeIcon className="project-button-icon" /> Live Demo
                                             </div>
                                         </span>
                                     </Tooltip>
                                 ) : (
                                     <a href={project.liveDemo} target="new" className="project-button" onClick={(e) => { e.stopPropagation(); }}>
                                         <div className="button-content-wrapper">
-                                            <GlobeIcon className="project-button-icon" /> 
-                                            {t("liveDemo")}
+                                            <GlobeIcon className="project-button-icon" /> Live Demo
                                         </div>
                                     </a>
                                 )}
                                 <a href={project.sourceCode} target='new' className="project-button" onClick={(e)=> {e.stopPropagation()}}>
                                     <div className="button-content-wrapper">
-                                        <GithubIcon  className="project-button-icon"/>
-                                        {t("sourceCode")}
+                                        <GithubIcon  className="project-button-icon"/>Source Code
                                     </div>
                                 </a>
                             </div>

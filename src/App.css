@@ -472,13 +472,6 @@
   transform: translateY(-5px);
 }
 
-/*.skill-category h4 {
-  margin-bottom: 12px;
-  font-size: 18px;
-  display: inline-block;
-  padding-bottom: 4px;
-}
-*/
 .skill-category ul {
   list-style: none;
   padding: 0;
@@ -771,6 +764,7 @@
   justify-content: space-between;
   margin: 10px 0;
   gap: 7px;
+  width: 100%;
 }
 
 .project-button{
@@ -781,6 +775,7 @@
   text-decoration: none;
   border-radius: 10px;
   transition: all 0.5s ease;
+  width: 100%;
 }
 
 .project-button:hover{

@@ -1,0 +1,396 @@
+{
+    "sectionTitle": "Projects",
+    "sectionDescription": "I have used various technologies to develop applications. Here are some of my featured projects.",
+    "noLiveDemo": "Sorry, there is no live demo for this project.",
+    "liveDemo": "Live Demo",
+    "sourceCode": "Source Code",
+    "searchPlaceholder": "Search Projects",
+    "filterByTags": "Filter by tags",
+    "sort": {
+      "default": "Default",
+      "titleAsc": "Sort by Title (A–Z)",
+      "titleDesc": "Sort by Title (Z–A)"
+    },
+    "list": [
+      {
+        "id": 1,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 16,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 17,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 18,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 19,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      },
+      {
+        "id": 20,
+        "title": "Find Campsite Auth",
+        "description": "Find Campsite Auth is a robust authentication system designed for a campsite booking platform. It enables users to create accounts, log in, and reset passwords while ensuring data security. The backend is built with Python & Flask, while the frontend is developed with React.<br/> Utilises Redis as a key-value database. <br/><br/><h5>Features:</h5><b>User Registration:</b> Allows users to create an account with securely hashed passwords.<br/><b>Login & Authentication:</b> Uses JWT tokens to manage user sessions securely.<br/><b>Password Reset:</b> Enables users to reset their passwords by answering a security question.<br/><b>Protected Routes:</b> Restricts access to certain pages for authenticated users only.<br/><b>Efficient Data Storage:</b> Utilises Redis for fast and scalable user data retrieval. <br/><br/> <b>Note:</b> There may be a delay when starting the live demo application for the first time due to the limited performance of Render's free plan. If the app remains unresponsive, please try reloading the page.",
+        "gif": "find-campsite-auth",  
+        "liveDemo": "https://find-campsite-auth-website.onrender.com/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/find-campsite-auth?tab=readme-ov-file",
+        "skills": [
+          "Python",
+          "Flask",
+          "React",
+          "CSS",
+          "Redis",
+          "JavaScript",
+          "RESTful API",
+          "Unit Testing",
+          "Databases"
+        ]
+      }
+    ]
+}

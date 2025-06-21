@@ -12,16 +12,21 @@ import heroUA from '../locales/ua/hero.json';
 import skillsEN from "../locales/en/skills.json";
 import skillsUA from '../locales/ua/skills.json';
 
+import projectsEN from "../locales/en/projects.json";
+import projectsUA from '../locales/ua/projects.json';
+
 const resources = {
   en: {
     navbar: navbarEN,
     hero: heroEN,
-    skills: skillsEN
+    skills: skillsEN,
+    projects: projectsEN
   },
   ua: {
     navbar: navbarUA,
     hero: heroUA,
-    skills: skillsUA
+    skills: skillsUA,
+    projects: projectsUA
   },
 };
 
@@ -33,7 +38,7 @@ i18n
     resources,
     fallbackLng: "en", 
     debug: true,
-    ns: ["navbar", "hero", "skills"],
+    ns: ["navbar", "hero", "skills", "projects"],
     defaultNS: "navbar",
     interpolation: {
       escapeValue: false
