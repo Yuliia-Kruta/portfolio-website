@@ -1,1 +1,1 @@
-export const sectionIds = ["home", "skills", "projects", "timeline"];
+export const sectionIds = ["home", "skills", "projects", "timeline", "references"];

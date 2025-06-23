@@ -17,8 +17,12 @@ import projectsUA from '../locales/ua/projects.json';
 import timelineEN from "../locales/en/timeline.json";
 import timelineUA from '../locales/ua/timeline.json';
 
+import referencesEN from "../locales/en/references.json";
+import referencesUA from '../locales/ua/references.json';
+
 import footerEN from "../locales/en/footer.json";
 import footerUA from '../locales/ua/footer.json';
+
 
 const resources = {
   en: {
@@ -27,6 +31,7 @@ const resources = {
     skills: skillsEN,
     projects: projectsEN,
     timeline: timelineEN,
+    references: referencesEN,
     footer: footerEN
   },
   ua: {
@@ -35,6 +40,7 @@ const resources = {
     skills: skillsUA,
     projects: projectsUA,
     timeline: timelineUA,
+    references: referencesUA,
     footer: footerUA
   },
 };
@@ -46,7 +52,7 @@ i18n
     resources,
     fallbackLng: "en", 
     debug: true,
-    ns: ["navbar", "hero", "skills", "projects", "timeline", "footer"],
+    ns: ["navbar", "hero", "skills", "projects", "timeline", "references", "footer"],
     defaultNS: "navbar",
     interpolation: {
       escapeValue: false

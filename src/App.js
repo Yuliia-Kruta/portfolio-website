@@ -10,6 +10,7 @@ import { useContext, useState } from 'react';
 import ProjectDetails from './components/ProjectDetails';
 import { Footer } from './components/Footer';
 import { ThemeContext } from './Theme';
+import References from './components/References';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Timeline />
       {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
+      <References />
       <Footer />
     </div>
   );
