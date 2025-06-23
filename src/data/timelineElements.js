@@ -43,8 +43,8 @@ let timelineElements = [
         id: 6,
         title: "Bachelor of ICT",
         location: "University of the Sunshine Coast",
-        description: "Started pursuing Bachelor of ICT at UniSC.  </br>Taking classes from various fields across IT, such as database management, systems design, network administration, cybersecurity, but focusing mainly on software development.   </br></br>I actively <span style='color:#ff002e'>engage in collaborative projects</span> and <span style='color:#ff002e'>gain practical experience</span> through industry-relevant assignments.  </br>I enjoy going to the university's social sports (volleyball, badminton) and participating in students' organisations, such as Student Guild. </br>My current GPA: <span style='color:#ff002e'>6.75/7</span>",
-        date: "July, 2022 - Present",
+        description: "Started pursuing Bachelor of ICT at UniSC.  </br>Taking classes from various fields across IT, such as database management, systems design, network administration, cybersecurity, but focusing mainly on software development.   </br></br>I actively <span style='color:#ff002e'>engage in collaborative projects</span> and <span style='color:#ff002e'>gain practical experience</span> through industry-relevant assignments.  </br>I enjoy going to the university's social sports (volleyball, badminton) and participating in students' organisations, such as Student Guild. </br>My current GPA: <span style='color:#ff002e'>6.5/7</span>",
+        date: "July, 2022 - June, 2024",
         icon: "university"
     },
     {
