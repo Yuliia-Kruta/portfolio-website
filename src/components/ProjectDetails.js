@@ -25,7 +25,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                         }}
                         onClick={() => setOpenModal({ state: false, project: null })}
                     />
-                    <img src={require(`../assets/gif/${project.gif}.gif`)} alt={project.title} className="modal-gif" />
+                    <img src={require(`../assets/${project.gif}`)} alt={project.title} className="modal-gif" />
                     <h3 className="modal-title">{project?.title}</h3>
                     <p className="modal-description" dangerouslySetInnerHTML={{__html: project?.description}}/>
                     <div className="modal-button-group">

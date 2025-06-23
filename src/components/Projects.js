@@ -135,7 +135,7 @@ const Projects = ({openModal,setOpenModal}) => {
                 <Row className="projects-grid">
                     {currentProjects.map((project) => (
                         <div key={project.id} className="project-card" onClick={() => setOpenModal({state: true, project: project})}>
-                            <img src={require(`../assets/gif/${project.gif}.gif`)} alt={project.title} className="project-gif" />
+                            <img src={require(`../assets/${project.gif}`)} alt={project.title} className="project-gif" />
                             <div className="project-card-text">
                                 <h3 className="project-title">{project.title}</h3>
                                 <p className="project-description" dangerouslySetInnerHTML={{__html: project.description}}/>
