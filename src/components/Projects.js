@@ -175,7 +175,7 @@ const Projects = ({openModal,setOpenModal}) => {
                 </Row>
                 <Pagination
                     projectsPerPage={projectsPerPage}
-                    totalProjects={projects.length}
+                    totalProjects={sortedProjects.length}
                     currentPage={currentPage}
                     onPageChange={handlePageChange}
                 />
