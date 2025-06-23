@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Container, Row, Col, Form, Dropdown } from "react-bootstrap"
 import Pagination from "./Pagination";
-import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
-import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
+import { ReactComponent as GlobeIcon } from "../assets/icons/globe-icon.svg"
+import { ReactComponent as GithubIcon } from "../assets/icons/github-icon.svg"
 import { Tooltip } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 

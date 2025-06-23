@@ -2,8 +2,8 @@ import { useContext, useEffect, useState } from "react";
 import { Navbar, Nav, Container} from "react-bootstrap"
 import { sectionIds } from "./SectionIds";
 import { ThemeContext } from "../Theme";
-import { ReactComponent as Sun } from '../assets/img/sun-icon.svg';
-import { ReactComponent as Moon } from '../assets/img/moon-icon.svg';
+import { ReactComponent as Sun } from '../assets/icons/sun-icon.svg';
+import { ReactComponent as Moon } from '../assets/icons/moon-icon.svg';
 import { useTranslation } from "react-i18next";
 
 const NavBar = () => {

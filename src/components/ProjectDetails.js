@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import { CloseRounded } from '@mui/icons-material';
 import { Modal, Tooltip } from '@mui/material';
-import { ReactComponent as GlobeIcon } from "../assets/img/globe-icon.svg"
-import { ReactComponent as GithubIcon } from "../assets/img/github-icon.svg"
+import { ReactComponent as GlobeIcon } from "../assets/icons/globe-icon.svg"
+import { ReactComponent as GithubIcon } from "../assets/icons/github-icon.svg"
 import { ThemeContext } from '../Theme';
 import { useTranslation } from 'react-i18next';
 

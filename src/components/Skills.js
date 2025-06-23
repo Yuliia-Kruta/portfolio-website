@@ -1,6 +1,6 @@
 import skillsBento from "../data/skills";
 import { Container, Row } from "react-bootstrap"
-import { ReactComponent as ExternalLink } from '../assets/img/external-link-icon.svg';
+import { ReactComponent as ExternalLink } from '../assets/icons/external-link-icon.svg';
 import { Tooltip } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 

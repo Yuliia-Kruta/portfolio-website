@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap"
 import homeImg from "../assets/img/profile-photo.jpg";
-import linkedinIcon from '../assets/img/linkedin-icon.svg';
-import githubIcon from '../assets/img/github-icon.svg';
-import gmailIcon from '../assets/img/gmail-icon.svg';
+import linkedinIcon from '../assets/icons/linkedin-icon.svg';
+import githubIcon from '../assets/icons/github-icon.svg';
+import gmailIcon from '../assets/icons/gmail-icon.svg';
 import { useTranslation, Trans } from "react-i18next";
 
 const Hero = () => {
