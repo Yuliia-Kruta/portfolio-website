@@ -7,10 +7,12 @@ import { useTranslation } from 'react-i18next';
 
 const Timeline = () => {
 
-    const { t } = useTranslation("timeline");
+    const { t, i18n } = useTranslation("timeline");
     const timeline = t("timeline", { returnObjects: true });
 
     const {theme} = useContext(ThemeContext);
+
+    const fontWeightClass = i18n.language === "ua" ? "font-weight-600" : "font-weight-500";
 
     function selectIcon(iconName){
         let IconComponent = icons[iconName]; 
@@ -31,10 +33,10 @@ const Timeline = () => {
                                     iconStyle={{ backgroundColor: theme === "dark-theme" ? "#121212" : "#ffffff" }}
                                     icon={selectIcon(element.icon)}
                                 >
-                                <h3 className="vertical-timeline-element-title">
+                                <h3 className={`vertical-timeline-element-title ${fontWeightClass}`}>
                                     {element.title}
                                 </h3>
-                                <h5 className="vertical-timeline-element-subtitle">
+                                <h5 className={`vertical-timeline-element-subtitle ${fontWeightClass}`}>
                                     {element.location}
                                 </h5>
                                 <div dangerouslySetInnerHTML={{__html: element.description}}/>
