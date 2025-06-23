@@ -1,11 +1,14 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
-import timelineElements from "../data/timelineElements"
 import { Container } from "react-bootstrap"
 import { icons } from "../util/exportIcons"
 import { useContext } from "react"
 import { ThemeContext } from "../Theme"
+import { useTranslation } from 'react-i18next';
 
 const Timeline = () => {
+
+    const { t } = useTranslation("timeline");
+    const timeline = t("timeline", { returnObjects: true });
 
     const {theme} = useContext(ThemeContext);
 
@@ -17,13 +20,12 @@ const Timeline = () => {
     return ( 
         <section className="timeline" id="timeline">
             <Container>
-            <h1 className="section-title">My Journey</h1>
+            <h1 className="section-title">{t("sectionTitle")}</h1>
                 <VerticalTimeline>
                     {
-                        timelineElements.map(element => {
-                            return(
+                        timeline.map((element, index) => (
                                 <VerticalTimelineElement 
-                                    key={element.id}
+                                    key={index}
                                     date={element.date}
                                     dateClassName="date"
                                     iconStyle={{ backgroundColor: theme === "dark-theme" ? "#121212" : "#ffffff" }}
@@ -39,7 +41,7 @@ const Timeline = () => {
 
                                 </VerticalTimelineElement>
                             )
-                        })
+                        )
                     }
                 </VerticalTimeline>
             </Container>

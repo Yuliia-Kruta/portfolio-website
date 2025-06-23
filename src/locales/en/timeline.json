@@ -1,0 +1,75 @@
+{
+  "sectionTitle": "My Journey",
+  "timeline": [
+    {
+      "title": "Graduated High School",
+      "location": "Kyiv, Ukraine",
+      "description": "Graduated high school with the <span style='color:#ff002e'>highest</span> score among peers.",
+      "date": "2020",
+      "icon": "school"
+    },
+    {
+      "title": "Passed EIT",
+      "location": "Kyiv, Ukraine",
+      "description": "Passed EIT (External independent evaluation) - the main examination for admission to universities in Ukraine with the high scores <span style='color:#ff002e'>195/200</span> for Math and <span style='color:#ff002e'>190/200</span> for English.",
+      "date": "2020",
+      "icon": "study"
+    },
+    {
+      "title": "Bachelor of Computer Science",
+      "location": "National University of 'Kyiv-Mohyla Academy'",
+      "description": "Was admitted to one of the <span style='color:#ff002e'>most prestigious and oldest universities</span> in Ukraine. Pursued a comprehensive Computer Science program with a focus on learning algorithms and data structures, programming, databases, and other key areas.",
+      "date": "2020-2022",
+      "icon": "university"
+    },
+    {
+      "title": "Worked as Math & IT tutor",
+      "location": "Ukraine",
+      "description": "Worked as a Math and IT tutor for children aged 7–16. <span style='color:#ff002e'>Developed individualised study programs</span>, aligning with the school curriculum, to help students overcome their unique learning challenges and reach their academic goals. <span style='color:#ff002e'>Mentored my oldest student,</span> who was 17 years old, to prepare for and successfully pass critical exams after school. This achievement paved the way for their admission to the top university.",
+      "date": "2020–2022",
+      "icon": "tutor"
+    },
+    {
+      "title": "Moved to Australia due to the war in Ukraine",
+      "location": "Australia",
+      "description": "Took academic leave in my Ukrainian university and relocated to the <span style='color:#ff002e'>Sunshine Coast, Australia.</span>",
+      "date": "April 2022",
+      "icon": "flight"
+    },
+    {
+      "title": "Nabooki?",
+      "location": "Sunshine Coast",
+      "description": "Worked as a junior developer at <span style='color:#ff002e'>Nabooki</span>, an Australian company specialising in booking system and marketplace technology for ... I assisted the development team in improving platform functionality, focusing on front-end UI updates and minor backend support tasks. Gained experience in working with <span style='color:#ff002e'>..., and version control (Git)</span> in a collaborative environment. This short but valuable experience deepened my understanding of real-world development workflows and agile team dynamics.",
+      "date": "June 2022 - August 2022",
+      "icon": "work"
+    },
+    {
+      "title": "Bachelor of ICT",
+      "location": "University of the Sunshine Coast",
+      "description": "Pursued Bachelor of ICT at UniSC. </br>Took classes from various fields across IT, such as database management, systems design, network administration, cybersecurity, but focused mainly on software development. </br></br>I actively <span style='color:#ff002e'>engaged in collaborative projects</span> and <span style='color:#ff002e'>gained a lot of practical experience</span> through industry-relevant assignments. </br>I enjoyed going to the university's social sports (volleyball, badminton) and participating in students' organisations, such as Student Guild. </br>My GPA: <span style='color:#ff002e'>6.5/7</span>",
+      "date": "July 2022 – June 2025",
+      "icon": "university"
+    },
+    {
+      "title": "Housekeeper at Sea Pearl Mooloolaba",
+      "location": "Mooloolaba, Sunshine Coast",
+      "description": "Worked as a housekeeper at <span style='color:#ff002e'>Sea Pearl Mooloolaba</span>, a luxury beachfront hotel and apartments complex. Maintained high standards of cleanliness in suites and common areas. This role strengthened my time management, task prioritisation, and communication skills while allowing me to balance casual work with university commitments.",
+      "date": "November 2023 - July 2025",
+      "icon": "housekeeping"
+    },
+    {
+      "title": "Housekeeper at Landmark Resort & Spa",
+      "location": "Mooloolaba, Sunshine Coast",
+      "description": "Worked at the <span style='color:#ff002e'>Landmark Resort & Spa</span>, a popular and fast-paced resort. Provided high-quality room servicing as part of a busy housekeeping team, consistently demonstrated initiative and professionalism, earning positive feedback from management and colleagues. My experience here taught me the value of consistency, resilience, and delivering excellence in a high-pressure environment.",
+      "date": "November 2023 - July 2025",
+      "icon": "housekeeping"
+    },
+    {
+      "title": "Keep learning programming on my own",
+      "location": "No matter where",
+      "description": "When I began studying computer science at the university I quickly realised that developer's career can be described as journey of continuous learning. The institution alone would not give me enough knowledge and skills to become proficient in software development, therefore <span style='color:#ff002e'>I dedicate a lot of time and effort to self-study.</span> I keep honing my programming skills, exploring new technologies and frameworks, and applying this knowledge to interesting projects to enrich my portfolio.",
+      "date": "2020 – Present",
+      "icon": "coding"
+    }
+  ]
+}
