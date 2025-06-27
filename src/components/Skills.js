@@ -23,7 +23,7 @@ const Skills = () => {
                                         <a  href={category.link}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="cert-link-icon"
+                                            className="external-link-icon"
                                             title="View Certifications"
                                         > <ExternalLink width="20px" height="20px"/>
                                         </a>

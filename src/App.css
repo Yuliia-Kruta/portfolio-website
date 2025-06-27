@@ -53,6 +53,9 @@
   --filter-tag-bg-light: #f0f0f0;
   --sort-modal-bg-dark: #1d1d1d;
   --sort-modal-bg-light: #f3f0f0;
+
+  --ref-card-subtitle-dark: #aaa;
+  --ref-card-subtitle-light: #292828;
 }
 
 .dark-theme {
@@ -68,6 +71,7 @@
   --filter-tag-bg: var(--filter-tag-bg-dark);
   --sort-bg: var(--sort-modal-bg-dark);
   --project-card-box-shadow: var(--project-card-box-shadow-dark);
+  --ref-card-subtitle: var(--ref-card-subtitle-dark)
 }
 
 .light-theme {
@@ -79,11 +83,11 @@
   --social-icons-box-shadow: var(--social-icons-box-shadow-light);
   --card-bg: var(--card-bg-light);
   --skill-card-box-shadow: var(--skill-card-box-shadow-light);
-
   --filter-tags-container-bg: var(--filter-tags-container-bg-light);
   --filter-tag-bg: var(--filter-tag-bg-light);
   --sort-bg: var(--sort-modal-bg-light);
   --project-card-box-shadow: var(--project-card-box-shadow-light);
+  --ref-card-subtitle: var(--ref-card-subtitle-light)
 }
 
 * {
@@ -163,9 +167,13 @@
       color: red;
   }
 
-  section.skills, section.projects, section.timeline{
+  section.skills, section.projects, section.timeline, section.references{
     margin-top: 0;
     padding: 0 0 100px 0;
+  }
+
+  section.references{
+    padding: 0 0 30px 0;
   }
 
   .section-description{
@@ -531,7 +539,7 @@
   grid-area: certs; 
 }
 
-.cert-link-icon {
+.external-link-icon {
   display: inline-flex;
   align-items: center;
   padding: 0;
@@ -540,7 +548,7 @@
   color: var(--main-fg);
 }
 
-.cert-link-icon svg:hover {
+.external-link-icon svg:hover {
   filter: drop-shadow(0 0 10px var(--main-fg-dark));
   transform: scale(1.15);
 }
@@ -988,9 +996,66 @@ margin: 0 0 7px 0;
 
 /************ References Css ************/
 
-.references {
-   
-  }
+.references .external-link-icon {
+  vertical-align: 5px; 
+}
+
+.references-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.reference-card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--project-card-box-shadow);
+  text-align: left;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.reference-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0px 10px var(--main-red);;
+}
+
+
+.reference-name {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--main-fg);
+  margin-bottom: 0.25rem;
+}
+
+.reference-position {
+  font-size: 0.95rem;
+  color: var(--ref-card-subtitle);
+  margin-bottom: 1rem;
+}
+
+.reference-snippet {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.read-more-btn {
+  background-color: transparent;
+  color: var(--main-red);
+  border: 2px solid #ff002e;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  
+}
+
+.read-more-btn:hover {
+  box-shadow: 0 0 3px 2px var(--main-red); 
+}
+
 
 /************ Footer Css ************/
 

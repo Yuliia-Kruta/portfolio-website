@@ -1,4 +1,48 @@
 {
   "sectionTitle": "References",
-  "timeline": "tralala"
+  "viewRefs": "View References",
+  "references": [
+    {
+    "id": 1,
+    "name": "Natalia Tenser",
+    "position": "Product Director at Nabooki", 
+    "snippet": "Yuliia was Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
+    "link": "https://example.com/reference1"
+  },
+  {
+    "id": 2,
+    "name": "Kylee Taylor",
+    "position": "Executive Housekeeper at Landmark Resort and Spa",
+    "snippet": "\"I have found her to be extremely reliable, very efficient, and hardworking. Yuliia demonstrates professionalism, integrity, enthusiasm, initiative and maturity every shift.<br/><br/> Yuliia would be a fantastic asset for any organisation that she wishes to pursue in the future. I couldn’t recommend Yuliia highly enough and would absolutely rehire her.\"",
+    "link": "https://drive.google.com/file/d/1kbT0Pfb-ZEC2zyeFGtAZ3JuV6Y5CVyJL/view?usp=sharing"
+  },
+  {
+    "id": 3,
+    "name": "Dakoda ...",
+    "position": "... at Sea Pearl Mooloolaba",
+    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
+    "link": "https://example.com/reference3"
+  },
+  {
+    "id": 4,
+    "name": "Anthony Bedford",
+    "position": "Associate Professor at UniSC",
+    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
+    "link": "https://example.com/reference3"
+  },
+  {
+    "id": 5,
+    "name": "Andrew Lang",
+    "position": "Lecturer at UniSC",
+    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
+    "link": "https://example.com/reference3"
+  },
+  {
+    "id": 6,
+    "name": "Dr Toby Gifford",
+    "position": "Lecturer in Design at UniSC",
+    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
+    "link": "https://example.com/reference3"
+  }
+]
 }
