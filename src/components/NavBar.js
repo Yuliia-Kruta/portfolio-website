@@ -12,6 +12,7 @@ const NavBar = () => {
 
   const {theme, toggleTheme} = useContext(ThemeContext);
   const [activeLink, setActiveLink] = useState("home");
+  const [expanded, setExpanded] = useState(false);
 
   function scrollToSection(sectionId){
     const element = document.getElementById(sectionId);
@@ -19,6 +20,7 @@ const NavBar = () => {
       const marginTop = 80;
       const scrollToY = element.getBoundingClientRect().top + window.scrollY - marginTop;
       window.scrollTo({top: scrollToY, behavior: "smooth"});
+      setExpanded(false);
     }
   }
 
@@ -29,6 +31,7 @@ const NavBar = () => {
         const rect = section.getBoundingClientRect();
         if(rect.top <= 120 && rect.bottom >=120){
           setActiveLink(sectionIds[i]);
+          setExpanded(false);
           break;
         }
       }
@@ -51,7 +54,7 @@ const NavBar = () => {
   };
 
     return ( 
-      <Navbar expand="md">
+      <Navbar expand="lg" expanded={expanded} onToggle={() => setExpanded(!expanded)}>
         <Container>
           <Navbar.Brand href="/" dangerouslySetInnerHTML={{ __html: t("brand") }}
           />
