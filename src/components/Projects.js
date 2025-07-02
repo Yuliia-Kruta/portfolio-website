@@ -43,6 +43,11 @@ const Projects = ({openModal,setOpenModal}) => {
 
     const handlePageChange = (pageNumber) => {
         setCurrentPage(pageNumber);
+
+        const section = document.getElementById("projects");
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
     };
 
     const filterProjects = (projects) => {
