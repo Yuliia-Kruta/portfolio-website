@@ -645,7 +645,7 @@
   background-color: var(--filter-tags-container-bg);
   border: none;
   padding: 10px;
-  width: 300px;
+  width: 320px;
 }
 
 .filter-dropdown .dropdown-menu .tags-container {

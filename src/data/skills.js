@@ -40,8 +40,8 @@ const skillsBento = [
       area: "cs-fundamentals"
     }, 
     {
-      title: "Certifications",
-      skills: ["AWS Academy Graduate - AWS Academy Cloud Developing", "Information Technology Specialist in Python Certification", "Information Technology Specialist in Databases Certification", "Microsoft Azure Data Fundamentals Certification", "Microsoft Security, Compliance, and Identity Fundamentals Certification"],
+      title: "Certifications & Honours",
+      skills: ["Golden Key International Honour Society Lifetime Member (Joined: 10/09/2023)", "AWS Academy Graduate - AWS Academy Cloud Developing", "Information Technology Specialist in Python Certification", "Information Technology Specialist in Databases Certification", "Microsoft Azure Data Fundamentals Certification", "Microsoft Security, Compliance, and Identity Fundamentals Certification"],
       area: "certifications",
       link: "https://drive.google.com/drive/folders/1ZzbeK1_fdXyRJimagj9XnNM7TQPgKfPU?usp=sharing"
     }

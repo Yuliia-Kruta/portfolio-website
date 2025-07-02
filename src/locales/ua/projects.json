@@ -14,6 +14,15 @@
     "list": [
       {
         "id": 1,
+        "title": "CarbonSense",
+        "description": "CarbonSense — це хмарний вебзастосунок для прогнозування вмісту вуглецю в ґрунті на основі спектральних даних ближнього інфрачервоного (NIR) діапазону, розроблений у межах UniSC ICT Industry Project 2025. Користувачі можуть завантажити необроблені CSV-файли з портативного спектрометра та отримати швидкий результат без потреби в лабораторному аналізі.<br/><br/><h5>Функціонал:</h5><b>Завантаження та перевірка CSV:</b> Підтримка завантаження до чотирьох файлів з миттєвою перевіркою формату та розміру файлів на стороні клієнта.<br/><b>Хмарна обробка:</b> Файли безпечно зберігаються в Azure Blob Storage і автоматично обробляються на сервері за допомогою Flask.<br/><b>Попередня обробка даних:</b> Застосовується MSC-корекція, інтерполяція та усереднення спектральних даних для підготовки до прогнозу.<br/><b>Прогнозування з ONNX-моделлю:</b> Використовується модель часткової регресії найменших квадратів (PLSR), експортована у формат ONNX для швидкого та легкого деплою до Vercel.<br/><b>Адаптивний інтерфейс:</b> Сучасний дизайн, створений з використанням Next.js, TypeScript і Tailwind CSS, що коректно відображається на будь-якому пристрої.<br/><br/><b>Примітка:</b> Застосунок був створений для реального замовника, тому вихідний код не є відкритим. Демоверсія демонструє лише функціональність. Для детального опису проєкту натисніть кнопку коду, щоб відкрити README.md на GitHub.",
+        "gif": "gif/carbon-sense.gif",
+        "liveDemo": "https://unisc-carbon-sense.vercel.app/",
+        "sourceCode": "",
+        "skills": ["Next.js", "TypeScript", "Tailwind CSS", "Python", "Flask", "ONNX", "Azure", "Machine Learning", "Data Preprocessing"]
+      },
+      {
+        "id": 2,
         "title": "Find Campsite Auth",
         "description": "Find Campsite Auth — це надійна система автентифікації, створена для платформи бронювання кемпінгів. Вона дозволяє користувачам створювати облікові записи, входити в систему та скидати паролі, забезпечуючи при цьому безпеку даних. Серверна частина побудована на Python і Flask, а інтерфейс — за допомогою React.<br/> Використовує Redis як базу даних ключ-значення. <br/><br/><h5>Функціонал:</h5><b>Реєстрація користувача:</b> Дозволяє створювати обліковий запис з безпечно захешованим паролем.<br/><b>Вхід та автентифікація:</b> Керує сесіями за допомогою JWT токенів.<br/><b>Скидання пароля:</b> Дає змогу відновити пароль через секретне питання.<br/><b>Захищені сторінки:</b> Доступ до певних сторінок мають лише автентифіковані користувачі.<br/><b>Ефективне зберігання даних:</b> Redis забезпечує швидке та масштабоване зчитування даних користувачів. <br/><br/><b>Примітка:</b> Під час першого запуску демонстраційної версії може спостерігатися затримка через обмежену продуктивність безкоштовного тарифного плану Render. Якщо застосунок не реагує, спробуйте оновити сторінку.",
         "gif": "gif/find-campsite-auth.gif",
@@ -32,7 +41,7 @@
         ]
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "Find Campsite Manager",
         "description": "Find Campsite Manager — це надійна система керування бронюваннями, впроваджена безпосередньо в кемпінгах для оптимізації процесу бронювання, забезпечуючи ефективну обробку заявок та розподіл місць.<br/><br/> Застосунок використовує <b>Python</b> для обробки логіки на сервері та взаємодії з базами даних, а <b>Flask</b> — як фреймворк для обробки HTTP-запитів.<br/> Інтерфейс для менеджерів створено на <b>React</b> — він інтуїтивний і адаптивний, дозволяє ініціювати отримання та обробку бронювань з головного офісу, переглядати й шукати деталі та звіти по бронюванням, а також завантажувати підтвердження бронювання у форматі pdf.<br/> Архітектура системи включає 2 бази даних <b>Azure SQL</b> та 1 базу даних <b>Azure MongoDB</b>.<br/><br/><h5>Функціонал:</h5> - Отримання бронювань із бази даних головного офісу (SQL).<br/> - Формування та збереження деталей бронювань у документній NoSQL-базі. Включає розподіл місць у кемпінгу.<br/> - Зберігання та керування інформацією про кемпінгові місця у NoSQL-базі.<br/> - Створення документів підтвердження для клієнтів.<br/> - Щоденне підбиття підсумків бронювань у таблиці локальної SQL-бази.<br/> - Надсилання зведень про бронювання до бази даних головного офісу.",
         "gif": "gif/find-campsite-manager.gif",  
@@ -41,7 +50,7 @@
         "skills": ["Python", "Flask", "Azure", "MongoDB", "SQL", "React", "CSS", "JavaScript", "RESTful API", "Unit Testing", "Databases"] 
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "OlaNotes",
         "description": "OlaNotes — мій перший pet-проєкт. Хоча не всі функції були реалізовані, саме він допоміг мені зрозуміти, як взаємодіють фронтенд і бекенд, а також ознайомитися з RESTful API.<br/><br/> OlaNotes — це хмарний вебзастосунок для створення нотаток, розроблений за допомогою Java та Spring Boot. Користувачі можуть безпечно реєструватися, входити в систему, створювати та керувати нотатками через інтуїтивну панель керування. Застосунок використовує хмарну базу даних MySQL і запущений через Docker на платформі Render.<br/><br><h5>Функціонал:</h5> - Реєстрація користувача та автентифікація<br/> - Створення, редагування та видалення нотаток<br/> - Вбудований текстовий редактор<br/> - Позначення нотаток як улюблених або закріплених<br/> - Панель нотаток у вигляді сітки або списку<br/> - Пошук нотаток<br/> - Редагування профілю користувача<br/> - Шифрування пароля<br/> - Адаптивний дизайн <br/><br/><b>Примітка:</b> Під час першого запуску демонстраційної версії може спостерігатися затримка через обмежену продуктивність безкоштовного тарифного плану Render.",
         "gif": "gif/olanotes-2.gif",  
@@ -50,7 +59,7 @@
         "skills": ["Java", "Spring Boot", "Spring Security", "Spring Data JPA", "HTML", "CSS", "JavaScript", "JQuery", "Bootstrap", "Thymeleaf", "RESTful API", "Maven", "Hibernate", "MySQL", "Databases", "Docker"] 
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "Glow Run",
         "description": "Glow Run — це шутер від першої особи з елементами платформера, розроблений в Unreal Engine 4 із використанням системи візуального скриптингу Blueprint. Гру створено в рамках університетського завдання. Вона має динамічний геймплей, привабливий інтерфейс і п’ять рівнів із поступовим зростанням складності.  <br/><br><h5>Функціонал:</h5> - Ігровий процес від першої особи з кастомною зброєю, змодельованою в Blender<br/> - 5 ретельно спроєктованих рівнів зі зростаючою складністю<br/> - Яскравий, неоновий візуальний стиль у стилі кіберпанк<br/> - Плавне керування персонажем і чутлива стрілецька механіка<br/> - Користувацький інтерфейс: головне меню, пауза, екран завершення гри, вибір рівня та фінальний екран<br/> - Вороги, що стріляють снарядами, та лазерні перешкоди<br/> - Обмежена система здоров’я з індикатором HP на екрані<br/> - Можливість збереження гри та продовження з місця зупинки",
         "gif": "gif/glowrun.gif",  
@@ -59,7 +68,7 @@
         "skills": ["Unreal Engine"] 
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "CityArtWalk",
         "description": "CityArtWalk — це Android-застосунок, написаний мовою Kotlin, створений для того, щоб допомогти користувачам знаходити та документувати об’єкти публічного мистецтва у своєму місті. Користувачі можуть додавати, редагувати й видаляти об’єкти, переглядати деталі та прокладати маршрут до їхнього розташування за допомогою GPS.<br/><br/><h5>Функціонал:</h5><b>Перегляд і дослідження об’єктів:</b> Переглядайте список мистецьких об’єктів із детальною інформацією.<br/><b>Додавання нових об’єктів:</b> Створюйте нові записи з назвою, датою та місцем розташування.<br/><b>Фотозйомка:</b> Робіть фото об’єктів і додавайте їх через камеру.<br/><b>GPS-локація:</b> Отримуйте координати розташування об’єкта та відкривайте їх у Google Maps.<br/><b>Керування об’єктами:</b> Редагуйте або видаляйте вже додані об’єкти зі списку.<br/><b>Збереження даних:</b> Для зберігання інформації використовується база даних Room.",
         "gif": "gif/city-art-walk.gif",  
@@ -68,7 +77,7 @@
         "skills": ["Kotlin","Android","Databases", "Google Play Services"]
       },
       {
-        "id": 6,
+        "id": 7,
         "title": "GeoQuiz",
         "description": "GeoQuiz — це Android-застосунок-вікторина, який перевіряє знання користувача з географії за допомогою питань типу «правда/неправда». Застосунок включає функції відстеження прогресу, підрахунку балів, запобігання повторним відповідям на ті самі питання, а також має опцію «читерства» з відповідним штрафом.<br/><br/><h5>Функціонал:</h5><b>Вікторина «Правда/Неправда»:</b> Відповідайте на запитання, пов’язані з географією.<br/><b>Навігація:</b> Перемикайтесь між попереднім і наступним питанням.<br/><b>Підрахунок балів:</b> Правильні відповіді збільшують рахунок.<br/><b>Функція читерства:</b> Користувачі можуть побачити правильну відповідь, але не отримують бал.<br/><b>Збереження стану:</b> Відстежує, на які питання вже відповідали або дивились відповідь, навіть при зміні конфігурації пристрою.",
         "gif": "gif/geoquiz.gif",  
@@ -77,7 +86,7 @@
         "skills": ["Kotlin","Android"]
       },
       {
-        "id": 7,
+        "id": 8,
         "title": "Portfolio Website",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
@@ -86,7 +95,7 @@
         "skills": ["JavaScript","React", "CSS"]
       },
       {
-        "id": 8,
+        "id": 9,
         "title": "Tenzies Game",
         "description": "Tenzies — це захоплива та затягуюча гра з киданням кубиків, створена на React. Мета гри — кидати десять кубиків доти, доки всі не покажуть однакове число. Гравці можуть «утримувати» окремі кубики, щоб зберегти їхні значення між кидками, намагаючись досягти найкращого часу та мінімальної кількості ходів. Гра має стильний інтерфейс, секундомір для відстеження часу та анімацію конфеті на випадок перемоги.<br/><br/><h5>Функціонал:</h5> - Динамічна механіка кидання кубиків і можливість їх утримання.<br/>- Відстеження та відображення найкращого часу і кількості кидків.<br/>- Анімація конфеті при перемозі.<br/>- Зручний інтерфейс із чистим дизайном.",
         "gif": "gif/tenzies-game.gif",  
@@ -95,7 +104,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 9,
+        "id": 10,
         "title": "Age Calculator",
         "description": "Цей проєкт — простий калькулятор віку, який взаємодіє з <b>мікроконтролером micro:bit</b> через USB. Вебінтерфейс дозволяє користувачам ввести дату народження, обчислює їхній вік і відображає його як на вебсторінці, так і на micro:bit. Якщо сьогодні день народження користувача, micro:bit відтворює вітальну мелодію.<br/><br/><h5>Функціонал:</h5>- Вебінтерфейс із полем введення дати народження та кнопкою для розрахунку віку.<br/>- Надсилання даних через USB на micro:bit для відображення.<br/>- Виведення привітального повідомлення й відтворення мелодії до дня народження, якщо це актуально.",
         "gif": "img/age-calculator.png",  
@@ -104,7 +113,7 @@
         "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
       },
       {
-        "id": 10,
+        "id": 11,
         "title": "Meme Generator",
         "description": "Meme Generator — це веселий та інтерактивний вебзастосунок, створений за допомогою React. Він дозволяє користувачам створювати власні меми, додаючи свій текст до популярних зображень. Просто натисніть, щоб отримати новий мем, додайте підписи — і за кілька секунд ви отримаєте готовий мем, яким можна поділитися!",
         "gif": "gif/meme-generator.gif",  
@@ -113,7 +122,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 11,
+        "id": 12,
         "title": "Shop Management System",
         "description": "Shop Management App — це GUI-застосунок на базі Python, розроблений для керування запасами магазину та кошиком покупця. Створений за допомогою Python і бібліотеки tkinter, цей застосунок дозволяє менеджерам магазину завантажувати інвентар з CSV-файлу, відображати товари у вибраних рядах, додавати продукти до кошика покупця та переходити до оформлення замовлення. Додаток має інтуїтивно зрозуміле оброблення помилок і дружні повідомлення для забезпечення безперебійної роботи.<br/><br/><h5>Функціонал:</h5> <b>Завантаження інвентарю:</b> Імпорт товарів із CSV-файлу.<br/><b>Відображення інвентарю:</b> Перегляд товарів у вказаному ряді.<br/><b>Додавання до кошика:</b> Додавання вибраних товарів до кошика покупця.<br/><b>Перегляд кошика:</b> Перегляд товарів у кошику разом із загальною сумою.<br/><b>Оформлення замовлення:</b> Очищення кошика та оновлення інвентарного файлу.<br/><b>Скасування замовлення:</b> Очищення кошика без оформлення покупки.",
         "gif": "gif/shop-management-system.gif",  
@@ -122,7 +131,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 12,
+        "id": 13,
         "title": "Java Algorithmic Programs",
         "description": "Цей репозиторій містить колекцію програм на Java, які демонструють різні обчислювальні концепції, алгоритми та теоретичні моделі.<br/><br/><h5>У репозиторії представлені такі програми:</h5>– Turing Test (гілка <i>turing-test</i>)<br/>– Перетворення рядків (гілка <i>string-transformations</i>)<br/>– Базові алгоритми (гілка <i>basic-algorithms</i>): містить програми, зокрема: Гіпотеза Коллатца, Евклідів алгоритм, Пошук мінімального та максимального значення, Вгадай число, Перевірка на паліндром, Досконалі числа, Теорема Піфагора, Рекурсивне обчислення чисел Фібоначчі, Факторіал, Підрахунок цифр, Обчислення ряду, Вежа Ханоя.<br/>– Сума перестановок (гілка <i>permutation-sum</i>)<br/>– Зворотний польський запис (гілка <i>reverse-polish-notation</i>)<br/>– Обчислення зворотного польського запису (гілка <i>evaluate-rpn</i>)<br/>– Дружні числа (гілка <i>amicable-numbers</i>)<br/><br/>Детальний опис кожної програми можна знайти у відповідних гілках.",
         "gif": "img/java-algorithmic-programs.png",  
@@ -131,7 +140,7 @@
         "skills": ["Java"]
       },
       {
-        "id": 13,
+        "id": 14,
         "title": "Fallin Game",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
@@ -140,7 +149,7 @@
         "skills": ["Java", "JavaFX"]
       },
       {
-        "id": 14,
+        "id": 15,
         "title": "IoT Home Healthcare System",
         "description": "Цей проєкт реалізує систему домашнього медичного моніторингу на базі IoT із використанням <b>Raspberry Pi</b>, датчиків пульсу та насиченості крові киснем (SpO2), а також інших компонентів для відстеження життєво важливих показників людини. Система забезпечує покази в реальному часі та надсилає сповіщення, якщо частота серцевих скорочень (BPM) або рівень кисню в крові (SpO2) виходить за межі безпечних порогових значень. Сповіщення надсилаються через SMS за допомогою API Twilio, а дані візуалізуються в реальному часі за допомогою Matplotlib.<br/><br/><h5>Функціонал:</h5>- Моніторинг пульсу та SpO2 в реальному часі.<br/>- Графічне відображення показників.<br/>- Індикатор на основі світлодіода для підтвердження правильного розміщення пальця на сенсорі.<br/>- Звуковий сигнал у разі виходу показників за межі норми.<br/>- SMS-сповіщення при аномальних значеннях пульсу або кисню в крові.<br/>- Візуалізація даних за допомогою Matplotlib.<br/><br/>Цей проєкт був створений спільно з Люсі Кендрик, Патріком Вільямсом та Максом Бейлі для курсу «Інтернет речей» в Університеті Саншайн-Кост (UniSC).",
         "gif": "img/IoT-healthcare.png",  
@@ -149,7 +158,7 @@
         "skills": ["Python", "Raspberry PI", "Microcontrollers"]
       },
       {
-        "id": 15,
+        "id": 16,
         "title": "Self Reflection",
         "description": "Проєкт «Self Reflection» — це інтерактивна арт-інсталяція, яка символізує внутрішні стосунки людини із самою собою. Дзеркало з LED-стрічкою по периметру світиться різними кольорами залежно від відстані між людиною та дзеркалом, що вимірюється ультразвуковим датчиком.<br/><br/> Використовуючи дзеркало як метафору себе, глядачів запрошують заглибитися у власні думки й почуття. Відстань і відповідні кольори LED символізують ступінь близькості та гармонії цього діалогу. Рухаючись від найвіддаленішої точки до самого дзеркала та спостерігаючи зміну кольору, користувач може осмислити всі п’ять етапів пошуку внутрішнього спокою.<br/><br/> Цей проєкт було створено спільно з Мікаелою Перея та Ліамом МакМайклом для курсу «Вступ до інтерактивних медіа» в UniSC.<br/><br/> Для детальнішої інформації будь ласка звертайтеся до файлу README.md на сторінці проєкту у GitHub, натиснувши кнопку «Source Code».",
         "gif": "img/self-reflection.png",  
@@ -158,7 +167,7 @@
         "skills": ["micro:bit", "Python", "Microcontrollers", "Interactive media"]
       },
       {
-        "id": 16,
+        "id": 17,
         "title": "Fallin Game",
         "description": "FLorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
@@ -167,7 +176,7 @@
         "skills": ["Java", "JavaFX"]
       },
       {
-        "id": 17,
+        "id": 18,
         "title": "Graphics Editor",
         "description": "Graphics Editor — це проста та інтуїтивна програма для малювання, схожа на Paint, створена з використанням бібліотеки Tkinter для Python. Цей інструмент дозволяє користувачам малювати, редагувати та зберігати свої роботи, використовуючи різні пензлі, кольори, фігури та текст.<br/><br/><h5>Функціонал:</h5> - Малювання: використовуйте різні розміри пензлів і кольори для вільного малювання на полотні.<br/> - Фігури: додавайте прямокутники, кола, трикутники, лінії та дуги з можливістю налаштування кольорів.<br/> - Текст: додавайте текст із настроюваними шрифтами та кольорами.<br/> - Ластик: стирайте частини малюнка різними розмірами ластика.<br/> - Фон: змінюйте колір фону полотна.<br/> - Збереження: зберігайте малюнок у вигляді файлу зображення.<br/> - Відкриття: відкривайте та редагуйте наявні файли зображень.<br/> - Повноекранний режим: вмикайте повноекранний режим для більшого занурення.<br/> - Очищення: очищуйте все полотно.<br/> - Допомога: отримуйте допомогу та інформацію про застосунок.",
         "gif": "gif/graphic-editor.gif",  
@@ -176,7 +185,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 18,
+        "id": 19,
         "title": "Cissoid of Diocles",
         "description": "Цей проєкт — це застосунок на Python із графічним інтерфейсом на базі Tkinter, який дозволяє користувачам будувати графік цисоїди Діокла. Застосунок приймає введені користувачем параметри та будує графік за допомогою Matplotlib.<br/><br/><h5>Функціонал:</h5><b>Побудова графіка:</b> відображає графік цисоїди Діокла на основі введених даних.<br/><b>Обробка помилок:</b> надає повідомлення у разі некоректних значень.<br/><b>Налаштування графіка:</b> дозволяє задавати діапазон та крок для побудови графіка.",
         "gif": "gif/cissoid-diocles.gif",  
@@ -185,7 +194,7 @@
         "skills": ["Python", "Tkinter", "Matplotlib"]
       },
       {
-        "id": 19,
+        "id": 20,
         "title": "Simple Python Apps",
         "description": "Репозиторій містить добірку простих проєктів на Python, які демонструють базові концепції програмування.<br/><br/>У проєкті представлені:<br/><br/> - <b>Текстова пригодницька гра</b> (гілка <i>text-adventure-game-branch</i>)<br/>Проста текстова пригодницька гра під назвою «Creepy House», написана на Python. Гравці можуть пересуватися між різними кімнатами, підбирати предмети та взаємодіяти з оточенням за допомогою базових команд.<br/><br/> - <b>Вікторина</b> (гілка <i>quiz-game-branch</i>)<br/>Проста командна гра-вікторина на Python, яка перевіряє знання з різних тем Python. Гра випадковим чином обирає 5 питань зі списку та надає зворотний зв’язок щодо правильності відповідей.",
         "gif": "gif/text-game.gif",  
@@ -194,7 +203,7 @@
         "skills": ["Python"]
       },
       {
-        "id": 20,
+        "id": 21,
         "title": "Simple Java Apps",
         "description": "Репозиторій містить прості Java-програми, які демонструють базові концепції програмування та прийоми розв’язання задач.<br/><br/>У репозиторії представлені такі програми:<br/><br/> - <b>Видалення коментарів із тексту</b> (гілка <i>delete-comments</i>)<br/>Цей простий Java-додаток видаляє коментарі з текстового файлу. Він обробляє як однорядкові (`// ...`), так і багаторядкові (`/* ... */`) коментарі, створюючи чистий файл без коментарів.<br/><br/> - <b>Простий календар</b> (гілка <i>simple-calendar</i>)<br/>Ця проста консольна Java-програма відображає календар на вказаний користувачем рік. Вона приймає рік як вхідні дані та виводить календар помісячно, показуючи дні тижня для кожного місяця.",
         "gif": "img/simple-java-apps.png",  
