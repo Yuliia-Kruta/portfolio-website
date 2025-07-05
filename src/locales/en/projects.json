@@ -55,7 +55,7 @@
         "gif": "gif/glowrun.gif",  
         "liveDemo": "none",
         "sourceCode": "https://github.com/Yuliia-Kruta/GlowRun",
-        "skills": ["Unreal Engine"] 
+        "skills": ["Unreal Engine", "GameDev"] 
       },
       {
         "id": 6,
@@ -68,16 +68,7 @@
       },
       {
         "id": 7,
-        "title": "GeoQuiz",
-        "description": "GeoQuiz is an Android quiz app that challenges users with true/false questions about geography. It includes features such as tracking user progress, scoring, preventing multiple answers per question, and a \"cheat\" option with a penalty. <br/><br/><h5>Features:</h5><b>True/False Quiz:</b> Answer geography-related questions.<br/><b>Navigation:</b> Move between previous and next questions.<br/><b>Score Tracking:</b> Correct answers increase the score.<br/><b>Cheat Functionality:</b> Users can reveal the correct answer but do not get a point.<br/><b>Persistence:</b> Tracks answered and cheated questions across configuration changes.",
-        "gif": "gif/geoquiz.gif",  
-        "liveDemo": "none",
-        "sourceCode": "https://github.com/Yuliia-Kruta/geoquiz",
-        "skills": ["Kotlin","Android"]
-      },
-      {
-        "id": 8,
-        "title": "Portfolio Website",
+        "title": "Portfolio Website Real - Update",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
         "liveDemo": "#",
@@ -85,7 +76,7 @@
         "skills": ["JavaScript","React", "CSS"]
       },
       {
-        "id": 9,
+        "id": 8,
         "title": "Tenzies Game",
         "description": "Tenzies is an engaging and addictive dice game built with React. The goal is to roll ten dice until they all show the same number. Players can hold dice to keep their current values between rolls, striving to achieve the best time and fewest rolls. The game features a sleek interface, a stopwatch to track game time, and a confetti animation to celebrate wins. <br/><br/><h5>Highlights:</h5> - Dynamic dice rolling and holding functionality. <br/>- Tracks and displays best time and roll count.<br/>- Confetti animation on winning.<br/>- User-friendly interface with a clean design.",
         "gif": "gif/tenzies-game.gif",  
@@ -94,25 +85,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 10,
-        "title": "Age Calculator",
-        "description": "This project is a simple age calculator that interacts with a <b>micro:bit microcontroller</b> via USB. The web interface allows users to enter their date of birth, calculates their age, and displays it both on the webpage and the micro:bit. If it's the user's birthday, the micro:bit plays a birthday song.<br/><br/><h5>Features: </h5>- Web interface with a DOB input field and an age calculation button.<br/>- Sends data via USB to the micro:bit for display.<br/>- Displays a congratulatory message and plays a birthday song if it’s the user’s birthday.",
-        "gif": "img/age-calculator.png",  
-        "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
-        "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
-        "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
-      },
-      {
-        "id": 11,
-        "title": "Meme Generator",
-        "description": "The Meme Generator app is a fun and interactive web application built with React. It allows users to create custom memes by adding their own text to popular meme images. Simply click to fetch a new meme, add your captions, and create a shareable meme in seconds!",
-        "gif": "gif/meme-generator.gif",  
-        "liveDemo": "https://yuliia-kruta.github.io/meme-generator/",
-        "sourceCode": "https://github.com/Yuliia-Kruta/meme-generator?tab=readme-ov-file",
-        "skills": ["React", "CSS", "JavaScript"]
-      },
-      {
-        "id": 12,
+        "id": 9,
         "title": "Shop Management System",
         "description": "The Shop Management App is a Python-based GUI application designed to manage shop inventory and customer carts. Built using Python and tkinter this application allows shop managers to load inventory from a CSV file, display items in specified aisles, add products to a customer cart, and proceed to checkout. The app features intuitive error handling and user-friendly messages to ensure smooth operation.<br/><br/><h5>Features:</h5> <b>Load Inventory:</b> Load products from a CSV file. <br/><b>Display Inventory:</b> Display items from a specified aisle.<br/><b>Add to Cart:</b> Add selected products to the customer cart.<br/><b>View Cart:</b> Display items in the cart along with the total cost.<br/><b>Checkout:</b> Clear the cart and update the inventory file.<br/><b>Cancel Order:</b> Clear the cart without proceeding to checkout.",
         "gif": "gif/shop-management-system.gif",  
@@ -121,7 +94,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 13,
+        "id": 10,
         "title": "Java Algorithmic Programs",
         "description": "This repository contains a collection of Java programs demonstrating various computational concepts, algorithms, and theoretical models.<br/><br/><h5>The programs included are:</h5>- Turing Test (turing-test branch)<br/>- String Transformations (string-transformations branch)<br/>- Basic Algorithms (basic-algorithms branch). Contains such programs as Collatz Conjecture, Euclidean Algorithm, Find Minimum and Maximum, Guess the Number, Palindrome Checker, Perfect Numbers, Pythagoras, Recursive Fibonacci, Factorial, and Digit Count, Series Calculation, Tower of Hanoi.<br/>- Sum of Permutations (permutation-sum branch)<br/>- Reverse Polish Notation (reverse-polish-notation branch)<br/> - Evaluate Reverse Polish Notation (evaluate-rpn branch)<br/> - Amicable Numbers (amicable-numbers branch)<br/><br/>Detailed description of each program can be found in respective branches.",
         "gif": "img/java-algorithmic-programs.png",  
@@ -130,13 +103,40 @@
         "skills": ["Java"]
       },
       {
+        "id": 11,
+        "title": "Stealth FPS Core",
+        "description": "Stealth FPS Core is a modular stealth-based first-person shooter template built with <b>Unity</b> and <b>C#</b>. Designed as part of the SGD213 course at UniSC, it features patrol-based enemy AI, player movement states, stealth detection via visibility and noise, and a throwable weapon system.<br/><br/><h5>Features:</h5>- Player mechanics (walk, sprint, crouch, visibility UI)<br/>- Patrol-based enemy AI with noise and sight detection<br/>- Throwable weapons (sticks, stones, grenades) with unique effects<br/>- Modular architecture for easy extension<br/>- Interactive UI and pause/game over screens",
+        "gif": "gif/stealth-fps-core.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/stealth-fps-core",
+        "skills": ["Unity", "C#", "GameDev"]
+      },
+      {
+        "id": 12,
+        "title": "GeoQuiz",
+        "description": "GeoQuiz is an Android quiz app that challenges users with true/false questions about geography. It includes features such as tracking user progress, scoring, preventing multiple answers per question, and a \"cheat\" option with a penalty. <br/><br/><h5>Features:</h5><b>True/False Quiz:</b> Answer geography-related questions.<br/><b>Navigation:</b> Move between previous and next questions.<br/><b>Score Tracking:</b> Correct answers increase the score.<br/><b>Cheat Functionality:</b> Users can reveal the correct answer but do not get a point.<br/><b>Persistence:</b> Tracks answered and cheated questions across configuration changes.",
+        "gif": "gif/geoquiz.gif",  
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/geoquiz",
+        "skills": ["Kotlin","Android"]
+      },
+      {
+        "id": 13,
+        "title": "Space Shooter",
+        "description": "A 2D space shooter game built in <b>Unity</b>, featuring enemy AI, player shooting, collision detection, health bars, and pickup-based weapon upgrades.<br/><br/><h5>Features:</h5>- Player-controlled spaceship that can move and shoot.<br/>- AI-controlled enemies with randomised movement and autonomous shooting.<br/>- Weapon switching via pickups (machine gun/triple shot).<br/>- Collision-based destruction logic with whitelist/blacklist filtering.<br/>- Modular design using inheritance and interfaces (e.g., WeaponBase, IHealth).<br/>- Health system for player and enemies with on-screen HP bars.",
+        "gif": "gif/space-shooter.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/space-shooter",
+        "skills": ["Unity", "C#", "GameDev"]
+      },
+      {
         "id": 14,
-        "title": "Fallin Game",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        "gif": "img/projectimage1.png",  
-        "liveDemo": "#",
-        "sourceCode": "#",
-        "skills": ["Java", "JavaFX"]
+        "title": "Meme Generator",
+        "description": "The Meme Generator app is a fun and interactive web application built with React. It allows users to create custom memes by adding their own text to popular meme images. Simply click to fetch a new meme, add your captions, and create a shareable meme in seconds!",
+        "gif": "gif/meme-generator.gif",  
+        "liveDemo": "https://yuliia-kruta.github.io/meme-generator/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/meme-generator?tab=readme-ov-file",
+        "skills": ["React", "CSS", "JavaScript"]
       },
       {
         "id": 15,
@@ -158,7 +158,16 @@
       },
       {
         "id": 17,
-        "title": "Fallin Game",
+        "title": "Age Calculator",
+        "description": "This project is a simple age calculator that interacts with a <b>micro:bit microcontroller</b> via USB. The web interface allows users to enter their date of birth, calculates their age, and displays it both on the webpage and the micro:bit. If it's the user's birthday, the micro:bit plays a birthday song.<br/><br/><h5>Features: </h5>- Web interface with a DOB input field and an age calculation button.<br/>- Sends data via USB to the micro:bit for display.<br/>- Displays a congratulatory message and plays a birthday song if it’s the user’s birthday.",
+        "gif": "img/age-calculator.png",  
+        "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
+        "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
+      },
+      {
+        "id": 18,
+        "title": "Fallin Game Real - Update",
         "description": "FLorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
         "liveDemo": "#",
@@ -166,7 +175,7 @@
         "skills": ["Java", "JavaFX"]
       },
       {
-        "id": 18,
+        "id": 19,
         "title": "Graphics Editor",
         "description": "Graphics Editor is a simple and intuitive drawing application, similar to Paint, built using Python's Tkinter library. This tool allows users to draw, edit, and save their creations with various brushes, colors, shapes, and text. <br/><br/><h5>Features:</h5> - Drawing: Use different brush sizes and colors to draw freehand on the canvas.<br/> - Shapes: Add rectangles, circles, triangles, lines, and arcs with customizable colors.<br/> - Text: Add text with customizable fonts and colors.<br/> - Eraser: Erase parts of the drawing with different eraser sizes.<br/> - Background: Change the canvas background color. <br/> - Save: Save your drawing as an image file. <br/> - Open: Open and edit existing image files. <br/> - Fullscreen: Toggle fullscreen mode for an immersive drawing experience. <br/> - Clear: Clear the entire canvas. <br/> - Help: Access help and information about the application.",
         "gif": "gif/graphic-editor.gif",  
@@ -175,7 +184,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 19,
+        "id": 20,
         "title": "Cissoid of Diocles",
         "description": "This project is a Python application that allows users to plot the Cissoid of Diocles graph using a Tkinter-based GUI. The application takes user input for the necessary parameters and plots the graph using Matplotlib. <br/><br/> <h5>Features:</h5> <b>Graph Plotting:</b> Plots the Cissoid of Diocles graph based on user input.<br/><b>Error Handling:</b> Provides feedback if the input values are invalid.<br/><b>Graph Customisation:</b> Allows users to set the range and step for the graph.",
         "gif": "gif/cissoid-diocles.gif",  
@@ -184,7 +193,7 @@
         "skills": ["Python", "Tkinter", "Matplotlib"]
       },
       {
-        "id": 20,
+        "id": 21,
         "title": "Simple Python Apps",
         "description": "The repository contains a collection of simple Python projects that demonstrate basic programming concepts. <br/><br/>The projects included are: <br/><br/> - <b>Text-based adventure game</b> (text-adventure-game-branch)<br/> A simple text-based adventure game called \"Creepy House\" written on Python. Players can navigate through different rooms, pick up objects, and interact with the environment using basic commands. <br/> <br/> - <b>Quiz game</b> (quiz-game-branch) <br/> A simple command-line python quiz game that tests your knowledge on various python topics. The game randomly selects 5 questions from a predefined list and provides feedback on the correctness of your answers.",
         "gif": "gif/text-game.gif",  
@@ -193,7 +202,7 @@
         "skills": ["Python"]
       },
       {
-        "id": 21,
+        "id": 22,
         "title": "Simple Java Apps",
         "description": "This repository contains simple Java applications that demonstrate fundamental programming concepts and problem-solving techniques. <br/><br/>The programs included are: <br/><br/> - <b>Delete Comments In Text</b> (delete-comments branch)<br/> This simple Java app removes comments from a text file. It handles both single-line (`// ...`) and multi-line (`/* ... */`) comments, producing a clean output file without comments. <br/> <br/> - <b>Simple Calendar</b> (simple-calendar branch) <br/> This simple Java-based console application displays a calendar for a given year. It takes user input for the year and prints the calendar month by month, showing the days of the week for each month.",
         "gif": "img/simple-java-apps.png",  

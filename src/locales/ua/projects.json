@@ -78,16 +78,7 @@
       },
       {
         "id": 7,
-        "title": "GeoQuiz",
-        "description": "GeoQuiz — це Android-застосунок-вікторина, який перевіряє знання користувача з географії за допомогою питань типу «правда/неправда». Застосунок включає функції відстеження прогресу, підрахунку балів, запобігання повторним відповідям на ті самі питання, а також має опцію «читерства» з відповідним штрафом.<br/><br/><h5>Функціонал:</h5><b>Вікторина «Правда/Неправда»:</b> Відповідайте на запитання, пов’язані з географією.<br/><b>Навігація:</b> Перемикайтесь між попереднім і наступним питанням.<br/><b>Підрахунок балів:</b> Правильні відповіді збільшують рахунок.<br/><b>Функція читерства:</b> Користувачі можуть побачити правильну відповідь, але не отримують бал.<br/><b>Збереження стану:</b> Відстежує, на які питання вже відповідали або дивились відповідь, навіть при зміні конфігурації пристрою.",
-        "gif": "gif/geoquiz.gif",  
-        "liveDemo": "none",
-        "sourceCode": "https://github.com/Yuliia-Kruta/geoquiz",
-        "skills": ["Kotlin","Android"]
-      },
-      {
-        "id": 8,
-        "title": "Portfolio Website",
+        "title": "Portfolio Website Real - Update",
         "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
         "liveDemo": "#",
@@ -95,7 +86,7 @@
         "skills": ["JavaScript","React", "CSS"]
       },
       {
-        "id": 9,
+        "id": 8,
         "title": "Tenzies Game",
         "description": "Tenzies — це захоплива та затягуюча гра з киданням кубиків, створена на React. Мета гри — кидати десять кубиків доти, доки всі не покажуть однакове число. Гравці можуть «утримувати» окремі кубики, щоб зберегти їхні значення між кидками, намагаючись досягти найкращого часу та мінімальної кількості ходів. Гра має стильний інтерфейс, секундомір для відстеження часу та анімацію конфеті на випадок перемоги.<br/><br/><h5>Функціонал:</h5> - Динамічна механіка кидання кубиків і можливість їх утримання.<br/>- Відстеження та відображення найкращого часу і кількості кидків.<br/>- Анімація конфеті при перемозі.<br/>- Зручний інтерфейс із чистим дизайном.",
         "gif": "gif/tenzies-game.gif",  
@@ -104,25 +95,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 10,
-        "title": "Age Calculator",
-        "description": "Цей проєкт — простий калькулятор віку, який взаємодіє з <b>мікроконтролером micro:bit</b> через USB. Вебінтерфейс дозволяє користувачам ввести дату народження, обчислює їхній вік і відображає його як на вебсторінці, так і на micro:bit. Якщо сьогодні день народження користувача, micro:bit відтворює вітальну мелодію.<br/><br/><h5>Функціонал:</h5>- Вебінтерфейс із полем введення дати народження та кнопкою для розрахунку віку.<br/>- Надсилання даних через USB на micro:bit для відображення.<br/>- Виведення привітального повідомлення й відтворення мелодії до дня народження, якщо це актуально.",
-        "gif": "img/age-calculator.png",  
-        "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
-        "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
-        "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
-      },
-      {
-        "id": 11,
-        "title": "Meme Generator",
-        "description": "Meme Generator — це веселий та інтерактивний вебзастосунок, створений за допомогою React. Він дозволяє користувачам створювати власні меми, додаючи свій текст до популярних зображень. Просто натисніть, щоб отримати новий мем, додайте підписи — і за кілька секунд ви отримаєте готовий мем, яким можна поділитися!",
-        "gif": "gif/meme-generator.gif",  
-        "liveDemo": "https://yuliia-kruta.github.io/meme-generator/",
-        "sourceCode": "https://github.com/Yuliia-Kruta/meme-generator?tab=readme-ov-file",
-        "skills": ["React", "CSS", "JavaScript"]
-      },
-      {
-        "id": 12,
+        "id": 9,
         "title": "Shop Management System",
         "description": "Shop Management App — це GUI-застосунок на базі Python, розроблений для керування запасами магазину та кошиком покупця. Створений за допомогою Python і бібліотеки tkinter, цей застосунок дозволяє менеджерам магазину завантажувати інвентар з CSV-файлу, відображати товари у вибраних рядах, додавати продукти до кошика покупця та переходити до оформлення замовлення. Додаток має інтуїтивно зрозуміле оброблення помилок і дружні повідомлення для забезпечення безперебійної роботи.<br/><br/><h5>Функціонал:</h5> <b>Завантаження інвентарю:</b> Імпорт товарів із CSV-файлу.<br/><b>Відображення інвентарю:</b> Перегляд товарів у вказаному ряді.<br/><b>Додавання до кошика:</b> Додавання вибраних товарів до кошика покупця.<br/><b>Перегляд кошика:</b> Перегляд товарів у кошику разом із загальною сумою.<br/><b>Оформлення замовлення:</b> Очищення кошика та оновлення інвентарного файлу.<br/><b>Скасування замовлення:</b> Очищення кошика без оформлення покупки.",
         "gif": "gif/shop-management-system.gif",  
@@ -131,7 +104,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 13,
+        "id": 10,
         "title": "Java Algorithmic Programs",
         "description": "Цей репозиторій містить колекцію програм на Java, які демонструють різні обчислювальні концепції, алгоритми та теоретичні моделі.<br/><br/><h5>У репозиторії представлені такі програми:</h5>– Turing Test (гілка <i>turing-test</i>)<br/>– Перетворення рядків (гілка <i>string-transformations</i>)<br/>– Базові алгоритми (гілка <i>basic-algorithms</i>): містить програми, зокрема: Гіпотеза Коллатца, Евклідів алгоритм, Пошук мінімального та максимального значення, Вгадай число, Перевірка на паліндром, Досконалі числа, Теорема Піфагора, Рекурсивне обчислення чисел Фібоначчі, Факторіал, Підрахунок цифр, Обчислення ряду, Вежа Ханоя.<br/>– Сума перестановок (гілка <i>permutation-sum</i>)<br/>– Зворотний польський запис (гілка <i>reverse-polish-notation</i>)<br/>– Обчислення зворотного польського запису (гілка <i>evaluate-rpn</i>)<br/>– Дружні числа (гілка <i>amicable-numbers</i>)<br/><br/>Детальний опис кожної програми можна знайти у відповідних гілках.",
         "gif": "img/java-algorithmic-programs.png",  
@@ -140,13 +113,40 @@
         "skills": ["Java"]
       },
       {
+        "id": 11,
+        "title": "Stealth FPS Core",
+        "description": "Stealth FPS Core — це модульний шаблон шутера від першої особи з елементами стелсу, створений за допомогою <b>Unity</b> та <b>C#</b>. Розроблений у рамках курсу SGD213 в університеті UniSC, проєкт містить патрулюючих ворогів, різні стани руху гравця, систему виявлення на основі видимості та шуму, а також механіку метальних снарядів.<br/><br/><h5>Функціонал:</h5>- Механіки гравця (ходьба, біг, присідання, індикатор видимості)<br/>- Ворожий ШІ з патрулюванням та виявленням за шумом і зоровим контактом<br/>- Метальна зброя (палиці, каміння, гранати) з унікальними ефектами<br/>- Модульна архітектура <br/>- Інтерактивний інтерфейс користувача та екрани паузи/поразки/закінчення гри",
+        "gif": "gif/stealth-fps-core.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/stealth-fps-core",
+        "skills": ["Unity", "C#", "GameDev"]
+      },
+      {
+        "id": 12,
+        "title": "GeoQuiz",
+        "description": "GeoQuiz — це Android-застосунок-вікторина, який перевіряє знання користувача з географії за допомогою питань типу «правда/неправда». Застосунок включає функції відстеження прогресу, підрахунку балів, запобігання повторним відповідям на ті самі питання, а також має опцію «читерства» з відповідним штрафом.<br/><br/><h5>Функціонал:</h5><b>Вікторина «Правда/Неправда»:</b> Відповідайте на запитання, пов’язані з географією.<br/><b>Навігація:</b> Перемикайтесь між попереднім і наступним питанням.<br/><b>Підрахунок балів:</b> Правильні відповіді збільшують рахунок.<br/><b>Функція читерства:</b> Користувачі можуть побачити правильну відповідь, але не отримують бал.<br/><b>Збереження стану:</b> Відстежує, на які питання вже відповідали або дивились відповідь, навіть при зміні конфігурації пристрою.",
+        "gif": "gif/geoquiz.gif",  
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/geoquiz",
+        "skills": ["Kotlin","Android"]
+      },
+      {
+        "id": 13,
+        "title": "Space Shooter",
+        "description": "Проста 2D гра-шутер, створена на <b>Unity</b>. Гравець керує космічним кораблем, стріляє ворожі об’єкти, уникає зіткнень та може покращувати зброю під час гри.<br/><br/><h5>Функціонал:</h5>- Корабель гравця може рухатися та стріляти.<br/>- Вороги рухаються та стріляють самостійно.<br/>- Зброю можна змінювати, підбираючи бонуси (наприклад, кулемет або потрійний постріл).<br/>- Зіткнення працюють за певними правилами (що можна або не можна знищити).<br/>- Код побудований на основі модулів з використанням наслідування та інтерфейсів.<br/>- Гравець і ворожі кораблі мають здоров’я, яке відображається на екрані.",
+        "gif": "gif/space-shooter.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/space-shooter",
+        "skills": ["Unity", "C#", "GameDev"]
+      },
+      {
         "id": 14,
-        "title": "Fallin Game",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        "gif": "img/projectimage1.png",  
-        "liveDemo": "#",
-        "sourceCode": "#",
-        "skills": ["Java", "JavaFX"]
+        "title": "Meme Generator",
+        "description": "Meme Generator — це веселий та інтерактивний вебзастосунок, створений за допомогою React. Він дозволяє користувачам створювати власні меми, додаючи свій текст до популярних зображень. Просто натисніть, щоб отримати новий мем, додайте підписи — і за кілька секунд ви отримаєте готовий мем, яким можна поділитися!",
+        "gif": "gif/meme-generator.gif",  
+        "liveDemo": "https://yuliia-kruta.github.io/meme-generator/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/meme-generator?tab=readme-ov-file",
+        "skills": ["React", "CSS", "JavaScript"]
       },
       {
         "id": 15,
@@ -168,7 +168,16 @@
       },
       {
         "id": 17,
-        "title": "Fallin Game",
+        "title": "Age Calculator",
+        "description": "Цей проєкт — простий калькулятор віку, який взаємодіє з <b>мікроконтролером micro:bit</b> через USB. Вебінтерфейс дозволяє користувачам ввести дату народження, обчислює їхній вік і відображає його як на вебсторінці, так і на micro:bit. Якщо сьогодні день народження користувача, micro:bit відтворює вітальну мелодію.<br/><br/><h5>Функціонал:</h5>- Вебінтерфейс із полем введення дати народження та кнопкою для розрахунку віку.<br/>- Надсилання даних через USB на micro:bit для відображення.<br/>- Виведення привітального повідомлення й відтворення мелодії до дня народження, якщо це актуально.",
+        "gif": "img/age-calculator.png",  
+        "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
+        "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
+        "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
+      },
+      {
+        "id": 18,
+        "title": "Fallin Game Real - Update",
         "description": "FLorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
         "gif": "img/projectimage1.png",  
         "liveDemo": "#",
@@ -176,7 +185,7 @@
         "skills": ["Java", "JavaFX"]
       },
       {
-        "id": 18,
+        "id": 19,
         "title": "Graphics Editor",
         "description": "Graphics Editor — це проста та інтуїтивна програма для малювання, схожа на Paint, створена з використанням бібліотеки Tkinter для Python. Цей інструмент дозволяє користувачам малювати, редагувати та зберігати свої роботи, використовуючи різні пензлі, кольори, фігури та текст.<br/><br/><h5>Функціонал:</h5> - Малювання: використовуйте різні розміри пензлів і кольори для вільного малювання на полотні.<br/> - Фігури: додавайте прямокутники, кола, трикутники, лінії та дуги з можливістю налаштування кольорів.<br/> - Текст: додавайте текст із настроюваними шрифтами та кольорами.<br/> - Ластик: стирайте частини малюнка різними розмірами ластика.<br/> - Фон: змінюйте колір фону полотна.<br/> - Збереження: зберігайте малюнок у вигляді файлу зображення.<br/> - Відкриття: відкривайте та редагуйте наявні файли зображень.<br/> - Повноекранний режим: вмикайте повноекранний режим для більшого занурення.<br/> - Очищення: очищуйте все полотно.<br/> - Допомога: отримуйте допомогу та інформацію про застосунок.",
         "gif": "gif/graphic-editor.gif",  
@@ -185,7 +194,7 @@
         "skills": ["Python", "Tkinter"]
       },
       {
-        "id": 19,
+        "id": 20,
         "title": "Cissoid of Diocles",
         "description": "Цей проєкт — це застосунок на Python із графічним інтерфейсом на базі Tkinter, який дозволяє користувачам будувати графік цисоїди Діокла. Застосунок приймає введені користувачем параметри та будує графік за допомогою Matplotlib.<br/><br/><h5>Функціонал:</h5><b>Побудова графіка:</b> відображає графік цисоїди Діокла на основі введених даних.<br/><b>Обробка помилок:</b> надає повідомлення у разі некоректних значень.<br/><b>Налаштування графіка:</b> дозволяє задавати діапазон та крок для побудови графіка.",
         "gif": "gif/cissoid-diocles.gif",  
@@ -194,7 +203,7 @@
         "skills": ["Python", "Tkinter", "Matplotlib"]
       },
       {
-        "id": 20,
+        "id": 21,
         "title": "Simple Python Apps",
         "description": "Репозиторій містить добірку простих проєктів на Python, які демонструють базові концепції програмування.<br/><br/>У проєкті представлені:<br/><br/> - <b>Текстова пригодницька гра</b> (гілка <i>text-adventure-game-branch</i>)<br/>Проста текстова пригодницька гра під назвою «Creepy House», написана на Python. Гравці можуть пересуватися між різними кімнатами, підбирати предмети та взаємодіяти з оточенням за допомогою базових команд.<br/><br/> - <b>Вікторина</b> (гілка <i>quiz-game-branch</i>)<br/>Проста командна гра-вікторина на Python, яка перевіряє знання з різних тем Python. Гра випадковим чином обирає 5 питань зі списку та надає зворотний зв’язок щодо правильності відповідей.",
         "gif": "gif/text-game.gif",  
@@ -203,7 +212,7 @@
         "skills": ["Python"]
       },
       {
-        "id": 21,
+        "id": 22,
         "title": "Simple Java Apps",
         "description": "Репозиторій містить прості Java-програми, які демонструють базові концепції програмування та прийоми розв’язання задач.<br/><br/>У репозиторії представлені такі програми:<br/><br/> - <b>Видалення коментарів із тексту</b> (гілка <i>delete-comments</i>)<br/>Цей простий Java-додаток видаляє коментарі з текстового файлу. Він обробляє як однорядкові (`// ...`), так і багаторядкові (`/* ... */`) коментарі, створюючи чистий файл без коментарів.<br/><br/> - <b>Простий календар</b> (гілка <i>simple-calendar</i>)<br/>Ця проста консольна Java-програма відображає календар на вказаний користувачем рік. Вона приймає рік як вхідні дані та виводить календар помісячно, показуючи дні тижня для кожного місяця.",
         "gif": "img/simple-java-apps.png",  
