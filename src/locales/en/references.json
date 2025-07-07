@@ -1,48 +1,35 @@
 {
   "sectionTitle": "References",
   "viewRefs": "View References",
+  "readFull": "Read Full",
   "references": [
     {
     "id": 1,
-    "name": "Natalia Tenser",
+    "name": "Nataliya Klymenko",
     "position": "Product Director at Nabooki", 
-    "snippet": "Yuliia was Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
-    "link": "https://example.com/reference1"
+    "snippet": "\"I had the pleasure to work with Yuliia Kruta during her tenure as a Junior Developer / Trainee at Nabooki from May to August 2022. During this period, Yuliia consistently demonstrated a strong work ethic and quickly became a dependable and engaged member of our team.\"<br/><br/>\"One of Yuliia’s standout qualities was her eagerness to learn. She consistently approached tasks with diligence and thoughtfulness, showing an admirable ability to pick up new skills quickly.\"",
+    "link": "https://drive.google.com/file/d/1LFVozQRb7ftBf0HHoy2OLtQ1cjiVB5Xz/view?usp=sharing"
   },
   {
     "id": 2,
     "name": "Kylee Taylor",
     "position": "Executive Housekeeper at Landmark Resort and Spa",
-    "snippet": "\"I have found her to be extremely reliable, very efficient, and hardworking. Yuliia demonstrates professionalism, integrity, enthusiasm, initiative and maturity every shift.<br/><br/> Yuliia would be a fantastic asset for any organisation that she wishes to pursue in the future. I couldn’t recommend Yuliia highly enough and would absolutely rehire her.\"",
+    "snippet": "\"I have found her to be extremely reliable, very efficient, and hardworking. Yuliia demonstrates professionalism, integrity, enthusiasm, initiative and maturity every shift.\"<br/><br/> \"Yuliia would be a fantastic asset for any organisation that she wishes to pursue in the future. I couldn’t recommend Yuliia highly enough and would absolutely rehire her.\"",
     "link": "https://drive.google.com/file/d/1kbT0Pfb-ZEC2zyeFGtAZ3JuV6Y5CVyJL/view?usp=sharing"
   },
   {
     "id": 3,
-    "name": "Dakoda ...",
-    "position": "... at Sea Pearl Mooloolaba",
-    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
-    "link": "https://example.com/reference3"
+    "name": "Dr Toby Gifford",
+    "position": "Lecturer in Design at UniSC",
+    "snippet": "\"From the first class it was apparent that Yuliia was a top student, as she found some errors in the codebase I had provided to the class as a template. Not only did she find errors, but she provided solutions, which I have incorporated into these templates ever since.\"<br/><br/>\"In implementation she naturally took on the technical heavy lifting, and was adept at working constructively with design students to bring their ideas to fruition.\"",
+    "link": "https://drive.google.com/file/d/10HAJOmbTEG6bDxpFZmrGg-Si_RSuDHmq/view?usp=sharing"
   },
   {
     "id": 4,
-    "name": "Anthony Bedford",
-    "position": "Associate Professor at UniSC",
-    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
-    "link": "https://example.com/reference3"
-  },
-  {
-    "id": 5,
     "name": "Andrew Lang",
     "position": "Lecturer at UniSC",
-    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
-    "link": "https://example.com/reference3"
-  },
-  {
-    "id": 6,
-    "name": "Dr Toby Gifford",
-    "position": "Lecturer in Design at UniSC",
-    "snippet": "Yuliia consistently demonstrated Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, excepturi? Voluptatibus, doloremque soluta. Est rerum perferendis blanditiis voluptate nam! Quibusdam consequatur, ducimus voluptate at atque laborum saepe vero? Laudantium, maiores.",
-    "link": "https://example.com/reference3"
+    "snippet": "\"I was fortunate to teach Yuliia Kruta during her studies at UniSC. <br/><br/>Yuliia was always well read and up to date with the material and research to help form her opinions. She was a leader in the discussions in class and often brought new ideas to the workshop.\"",
+    "link": "https://drive.google.com/file/d/1phs_KRWmurULOz0LrF1Pqv0qbw7wtVHP/view?usp=sharing"
   }
 ]
 }

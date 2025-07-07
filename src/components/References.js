@@ -34,7 +34,7 @@ const References = () => {
                             rel="noopener noreferrer"
                             className="read-more-btn"
                             >
-                            Read Full
+                            {t("readFull")}
                             </a>
                         </div>
                         ))}
