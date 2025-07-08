@@ -78,12 +78,12 @@
       },
       {
         "id": 7,
-        "title": "Portfolio Website Real - Update",
-        "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        "gif": "img/projectimage1.png",  
-        "liveDemo": "#",
-        "sourceCode": "#",
-        "skills": ["JavaScript","React", "CSS"]
+        "title": "Portfolio Website",
+        "description": "Це мій особистий сайт-портфоліо, створений з використанням <b>React</b>. Він демонструє мої проекти, навички, професійний шлях і рекомендації. Сайт підтримує темну та світлу теми, а також перемикання між українською та англійською мовами.<br/><br/><h5>Функціонал:</h5> - Адаптивний дизайн з використанням Bootstrap і власних стилів CSS.<br/>- Перемикач світлої/темної теми та багатомовність (англійська/українська).<br/>- Галерея проектів із пошуком, фільтрами, сортуванням і модальними вікнами.<br/>- Сітка навичок у стилі бенто з посиланнями на сертифікати.<br/>- Хронологія навчання та досвіду роботи.<br/>- Рекомендації від колег і викладачів.",
+        "gif": "gif/portfolio-website.gif",
+        "liveDemo": "update",
+        "sourceCode": "https://github.com/Yuliia-Kruta/portfolio-website",
+        "skills": ["React", "Bootstrap", "CSS", "JavaScript"]
       },
       {
         "id": 8,
