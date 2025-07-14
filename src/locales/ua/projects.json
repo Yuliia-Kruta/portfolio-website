@@ -123,6 +123,15 @@
       },
       {
         "id": 12,
+        "title": "Fallin Game",
+        "description": "Fallin Game — це проста гра на <b>JavaFX</b> з сітковим ігровим полем, створена в рамках університетського завдання. Гравець має провести персонажа через лабіринт, дістатися виходу, уникаючи пасток і мутантів, а також збираючи скарби та аптечки.<br/><br/><h5>Особливості:</h5>- Переміщення по сітці<br/>- Обмежена кількість кроків і життів<br/>- Різні типи клітинок: пастки, скарби, мутанти, аптечки<br/>- Можливість зберігати й завантажувати гру<br/>- Підрахунок балів і таблиця рекордів<br/>- Обробка помилок",
+        "gif": "gif/fallin-game.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/FallinGame",
+        "skills": ["Java", "JavaFX"]
+      },
+      {
+        "id": 13,
         "title": "GeoQuiz",
         "description": "GeoQuiz — це Android-застосунок-вікторина, який перевіряє знання користувача з географії за допомогою питань типу «правда/неправда». Застосунок включає функції відстеження прогресу, підрахунку балів, запобігання повторним відповідям на ті самі питання, а також має опцію «читерства» з відповідним штрафом.<br/><br/><h5>Функціонал:</h5><b>Вікторина «Правда/Неправда»:</b> Відповідайте на запитання, пов’язані з географією.<br/><b>Навігація:</b> Перемикайтесь між попереднім і наступним питанням.<br/><b>Підрахунок балів:</b> Правильні відповіді збільшують рахунок.<br/><b>Функція читерства:</b> Користувачі можуть побачити правильну відповідь, але не отримують бал.<br/><b>Збереження стану:</b> Відстежує, на які питання вже відповідали або дивились відповідь, навіть при зміні конфігурації пристрою.",
         "gif": "gif/geoquiz.gif",  
@@ -131,7 +140,7 @@
         "skills": ["Kotlin","Android"]
       },
       {
-        "id": 13,
+        "id": 14,
         "title": "Space Shooter",
         "description": "Проста 2D гра-шутер, створена на <b>Unity</b>. Гравець керує космічним кораблем, стріляє ворожі об’єкти, уникає зіткнень та може покращувати зброю під час гри.<br/><br/><h5>Функціонал:</h5>- Корабель гравця може рухатися та стріляти.<br/>- Вороги рухаються та стріляють самостійно.<br/>- Зброю можна змінювати, підбираючи бонуси (наприклад, кулемет або потрійний постріл).<br/>- Зіткнення працюють за певними правилами (що можна або не можна знищити).<br/>- Код побудований на основі модулів з використанням наслідування та інтерфейсів.<br/>- Гравець і ворожі кораблі мають здоров’я, яке відображається на екрані.",
         "gif": "gif/space-shooter.gif",
@@ -140,7 +149,7 @@
         "skills": ["Unity", "C#", "GameDev"]
       },
       {
-        "id": 14,
+        "id": 15,
         "title": "Meme Generator",
         "description": "Meme Generator — це веселий та інтерактивний вебзастосунок, створений за допомогою React. Він дозволяє користувачам створювати власні меми, додаючи свій текст до популярних зображень. Просто натисніть, щоб отримати новий мем, додайте підписи — і за кілька секунд ви отримаєте готовий мем, яким можна поділитися!",
         "gif": "gif/meme-generator.gif",  
@@ -149,7 +158,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 15,
+        "id": 16,
         "title": "IoT Home Healthcare System",
         "description": "Цей проєкт реалізує систему домашнього медичного моніторингу на базі IoT із використанням <b>Raspberry Pi</b>, датчиків пульсу та насиченості крові киснем (SpO2), а також інших компонентів для відстеження життєво важливих показників людини. Система забезпечує покази в реальному часі та надсилає сповіщення, якщо частота серцевих скорочень (BPM) або рівень кисню в крові (SpO2) виходить за межі безпечних порогових значень. Сповіщення надсилаються через SMS за допомогою API Twilio, а дані візуалізуються в реальному часі за допомогою Matplotlib.<br/><br/><h5>Функціонал:</h5>- Моніторинг пульсу та SpO2 в реальному часі.<br/>- Графічне відображення показників.<br/>- Індикатор на основі світлодіода для підтвердження правильного розміщення пальця на сенсорі.<br/>- Звуковий сигнал у разі виходу показників за межі норми.<br/>- SMS-сповіщення при аномальних значеннях пульсу або кисню в крові.<br/>- Візуалізація даних за допомогою Matplotlib.<br/><br/>Цей проєкт був створений спільно з Люсі Кендрик, Патріком Вільямсом та Максом Бейлі для курсу «Інтернет речей» в Університеті Саншайн-Кост (UniSC).",
         "gif": "img/IoT-healthcare.png",  
@@ -158,7 +167,7 @@
         "skills": ["Python", "Raspberry PI", "Microcontrollers"]
       },
       {
-        "id": 16,
+        "id": 17,
         "title": "Self Reflection",
         "description": "Проєкт «Self Reflection» — це інтерактивна арт-інсталяція, яка символізує внутрішні стосунки людини із самою собою. Дзеркало з LED-стрічкою по периметру світиться різними кольорами залежно від відстані між людиною та дзеркалом, що вимірюється ультразвуковим датчиком.<br/><br/> Використовуючи дзеркало як метафору себе, глядачів запрошують заглибитися у власні думки й почуття. Відстань і відповідні кольори LED символізують ступінь близькості та гармонії цього діалогу. Рухаючись від найвіддаленішої точки до самого дзеркала та спостерігаючи зміну кольору, користувач може осмислити всі п’ять етапів пошуку внутрішнього спокою.<br/><br/> Цей проєкт було створено спільно з Мікаелою Перея та Ліамом МакМайклом для курсу «Вступ до інтерактивних медіа» в UniSC.<br/><br/> Для детальнішої інформації будь ласка звертайтеся до файлу README.md на сторінці проєкту у GitHub, натиснувши кнопку «Source Code».",
         "gif": "img/self-reflection.png",  
@@ -167,22 +176,13 @@
         "skills": ["micro:bit", "Python", "Microcontrollers", "Interactive media"]
       },
       {
-        "id": 17,
+        "id": 18,
         "title": "Age Calculator",
         "description": "Цей проєкт — простий калькулятор віку, який взаємодіє з <b>мікроконтролером micro:bit</b> через USB. Вебінтерфейс дозволяє користувачам ввести дату народження, обчислює їхній вік і відображає його як на вебсторінці, так і на micro:bit. Якщо сьогодні день народження користувача, micro:bit відтворює вітальну мелодію.<br/><br/><h5>Функціонал:</h5>- Вебінтерфейс із полем введення дати народження та кнопкою для розрахунку віку.<br/>- Надсилання даних через USB на micro:bit для відображення.<br/>- Виведення привітального повідомлення й відтворення мелодії до дня народження, якщо це актуально.",
         "gif": "img/age-calculator.png",  
         "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
         "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
         "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
-      },
-      {
-        "id": 18,
-        "title": "Fallin Game Real - Update",
-        "description": "FLorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        "gif": "img/projectimage1.png",  
-        "liveDemo": "#",
-        "sourceCode": "#",
-        "skills": ["Java", "JavaFX"]
       },
       {
         "id": 19,

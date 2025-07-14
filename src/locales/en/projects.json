@@ -113,6 +113,15 @@
       },
       {
         "id": 12,
+        "title": "Fallin Game",
+        "description": "Fallin Game is a simple <b>JavaFX</b>-based grid game where the player navigates through a maze to reach the exit while avoiding traps and mutants and collecting treasures and medical kits.<br/><br/><h5>Features:</h5>- Grid-based movement system<br/>- Limited steps and life points<br/>- Different cell types: traps, treasures, mutants, medical kits<br/>- Save/load game functionality<br/>- Score tracking and top score records<br/>- Basic error handling",
+        "gif": "gif/fallin-game.gif",
+        "liveDemo": "none",
+        "sourceCode": "https://github.com/Yuliia-Kruta/FallinGame",
+        "skills": ["Java", "JavaFX"]
+      },
+      {
+        "id": 13,
         "title": "GeoQuiz",
         "description": "GeoQuiz is an Android quiz app that challenges users with true/false questions about geography. It includes features such as tracking user progress, scoring, preventing multiple answers per question, and a \"cheat\" option with a penalty. <br/><br/><h5>Features:</h5><b>True/False Quiz:</b> Answer geography-related questions.<br/><b>Navigation:</b> Move between previous and next questions.<br/><b>Score Tracking:</b> Correct answers increase the score.<br/><b>Cheat Functionality:</b> Users can reveal the correct answer but do not get a point.<br/><b>Persistence:</b> Tracks answered and cheated questions across configuration changes.",
         "gif": "gif/geoquiz.gif",  
@@ -121,7 +130,7 @@
         "skills": ["Kotlin","Android"]
       },
       {
-        "id": 13,
+        "id": 14,
         "title": "Space Shooter",
         "description": "A 2D space shooter game built in <b>Unity</b>, featuring enemy AI, player shooting, collision detection, health bars, and pickup-based weapon upgrades.<br/><br/><h5>Features:</h5>- Player-controlled spaceship that can move and shoot.<br/>- AI-controlled enemies with randomised movement and autonomous shooting.<br/>- Weapon switching via pickups (machine gun/triple shot).<br/>- Collision-based destruction logic with whitelist/blacklist filtering.<br/>- Modular design using inheritance and interfaces (e.g., WeaponBase, IHealth).<br/>- Health system for player and enemies with on-screen HP bars.",
         "gif": "gif/space-shooter.gif",
@@ -130,7 +139,7 @@
         "skills": ["Unity", "C#", "GameDev"]
       },
       {
-        "id": 14,
+        "id": 15,
         "title": "Meme Generator",
         "description": "The Meme Generator app is a fun and interactive web application built with React. It allows users to create custom memes by adding their own text to popular meme images. Simply click to fetch a new meme, add your captions, and create a shareable meme in seconds!",
         "gif": "gif/meme-generator.gif",  
@@ -139,7 +148,7 @@
         "skills": ["React", "CSS", "JavaScript"]
       },
       {
-        "id": 15,
+        "id": 16,
         "title": "IoT Home Healthcare System",
         "description": "This project implements an IoT-based home healthcare system using a <b>Raspberry Pi</b>, heart rate and blood oxygen saturation sensors, and various other components to monitor an individual's vital signs. It provides real-time readings and alerts users when heart rate (BPM) or blood oxygen saturation (SpO2) levels go outside of the predefined safe thresholds. Alerts are sent via SMS using Twilio API, and the data is visualised in real-time using Matplotlib.<br/><br/><h5>Features:</h5>- Real-time heart rate and SpO2 monitoring.<br/>- Graphical display of measurements.<br/>- LED indicator to confirm sensor finger placement.<br/>- Audible buzzer for out-of-range readings.<br/>- SMS alerts for abnormal heart rate or oxygen saturation levels.<br/>- Data visualisation with Matplotlib. <br/><br/>This project was created together with Lucy Kendrick, Patrick Williams and Max Bailey for Internet of Things class at UniSC.",
         "gif": "img/IoT-healthcare.png",  
@@ -148,7 +157,7 @@
         "skills": ["Python", "Raspberry PI", "Microcontrollers"]
       },
       {
-        "id": 16,
+        "id": 17,
         "title": "Self Reflection",
         "description": "Self Reflection project is an interactive art installation that represents the internal relationship of the person with themselves. The mirror with the LED strip on its frame glows up with different colours depending on the distance between the person and the mirror, measured by the ultrasonic sensor. <br/><br/> By using the mirror as a metaphorical representation of the self, viewers are invited to engage with their inner thoughts and feelings. The distance and corresponding LED colours symbolise how close and harmonic this dialog is. Moving from the farthest point to the very close to the mirror, and observing the colour change, allows the user to reflect on all five stages of finding an inner peace journey. <br/><br/> This project was created together with Michaela Perea and Liam McMichael for Introduction to Interactive Media class at UniSC. <br/><br/> For more information, please refer to the README.md file on the project's GitHub page by clicking the Source Code button.",
         "gif": "img/self-reflection.png",  
@@ -157,22 +166,13 @@
         "skills": ["micro:bit", "Python", "Microcontrollers", "Interactive media"]
       },
       {
-        "id": 17,
+        "id": 18,
         "title": "Age Calculator",
         "description": "This project is a simple age calculator that interacts with a <b>micro:bit microcontroller</b> via USB. The web interface allows users to enter their date of birth, calculates their age, and displays it both on the webpage and the micro:bit. If it's the user's birthday, the micro:bit plays a birthday song.<br/><br/><h5>Features: </h5>- Web interface with a DOB input field and an age calculation button.<br/>- Sends data via USB to the micro:bit for display.<br/>- Displays a congratulatory message and plays a birthday song if it’s the user’s birthday.",
         "gif": "img/age-calculator.png",  
         "liveDemo": "https://yuliia-kruta.github.io/age-calculator/",
         "sourceCode": "https://github.com/Yuliia-Kruta/age-calculator?tab=readme-ov-file",
         "skills": ["micro:bit", "HTML", "CSS", "JavaScript", "Microcontrollers"]
-      },
-      {
-        "id": 18,
-        "title": "Fallin Game Real - Update",
-        "description": "FLorem ipsum dolor sit amet consectetur, adipisicing elit. Natus a non dignissimos itaque, accusamus rerum sint adipisci inventore sit perspiciatis ipsum. Optio, provident necessitatibus. Maiores eaque cum consequatur velit atque? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum voluptas repudiandae quia, quam nisi in impedit sit amet harum reprehenderit vitae esse inventore placeat obcaecati quod temporibus! Ratione, possimus reiciendis.Officia quae beatae tenetur exercitationem debitis, alias nisi! Dolor tenetur nobis, accusamus, ipsum molestias dolorem culpa atque laborum sunt unde distinctio omnis, error sapiente repellendus temporibus reiciendis tempora sed odit.Nisi, sed odio sapiente amet quasi aspernatur, obcaecati maiores at, in corrupti quae explicabo expedita eos saepe nemo enim aut sequi. Sint modi facilis pariatur iusto ut! Obcaecati, quia ad.Architecto sequi qui illum delectus nostrum quibusdam officiis reiciendis quos eligendi atque aliquam tempore cumque odio totam laudantium, saepe nobis ducimus! Corrupti obcaecati eos culpa ipsa vero porro ad atque!",
-        "gif": "img/projectimage1.png",  
-        "liveDemo": "#",
-        "sourceCode": "#",
-        "skills": ["Java", "JavaFX"]
       },
       {
         "id": 19,
