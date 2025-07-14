@@ -3,7 +3,7 @@
 <div></div><img align="left" src="./portfolio-website.gif"/></div>
  &nbsp
 <br/>
-You can view my portfolio here: <a target="new" href="https://yuliia-kruta.github.io/tenzies-game/">View Portfolio</a>
+You can view my portfolio here: <a target="new" href="https://yuliia-kruta.github.io/portfolio-website/">View Portfolio</a>
 <h2>Project description</h2>
 This is my personal portfolio website built with <b>React</b>. It showcases my projects, skills, timeline, and references in a responsive and interactive design. The site includes multilingual support and dynamic theming to ensure a modern and user-friendly experience.
 
@@ -15,7 +15,7 @@ This is my personal portfolio website built with <b>React</b>. It showcases my p
 - 🧠 **Skills Section** — Organised in a bento-style grid with links to certifications.
 - 📂 **Projects Gallery** — Paginated, searchable, and filterable list of projects with modals, tags, and live/demo links.
 - 🕓 **Timeline** — Vertical timeline highlighting major milestones.
-- 📜 **References** — Endorsements from colleagues or university ....
+- 📜 **References** — Endorsements from colleagues and university tutors.
 - 📦 **Modular Components** — Clean and reusable component structure.
 
 
